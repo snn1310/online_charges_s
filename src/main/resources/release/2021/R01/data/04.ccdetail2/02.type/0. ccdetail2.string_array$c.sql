@@ -1,0 +1,4 @@
+CREATE TYPE ccdetail2.string_array$c AS (
+column_value CHARACTER VARYING(4000)
+);
+

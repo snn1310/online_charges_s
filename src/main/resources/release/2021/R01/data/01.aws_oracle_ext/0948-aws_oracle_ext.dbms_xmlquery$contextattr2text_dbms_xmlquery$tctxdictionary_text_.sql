@@ -1,0 +1,51 @@
+create or replace function aws_oracle_ext.dbms_xmlquery$contextAttr2text(
+                                                        ctxBindValue aws_oracle_ext.dbms_xmlquery$tctxdictionary[] default null,
+  			                                            ctxDataHeader aws_oracle_ext.dbms_xmlquery$TctxDictionary default null,
+												        ctxCallIdAttrName text default null,
+												        ctxDateFormat text default null,
+												        ctxEncodingTag text default null,
+												        ctxErrorTag text default null,
+												        ctxMaxRows numeric default null,
+												        ctxMateHeader text default null,
+												        ctxRaiseException boolean default null,
+												        ctxRaiseNoRowsException boolean default null,
+												        ctxRowidAttrName text default null,
+												        ctxRowIdAttrValue text default null,
+												        ctxRowSetTag text default null,
+												        ctxRowTag text default null,
+												        ctxSkipRows numeric default null,
+												        ctxSQLToXMLNameEscaping boolean default null,
+												        ctxStyleSheetHeader aws_oracle_ext.dbms_xmlquery$TctxDictionary default null, --text,
+												        ctxTagCase numeric default null,
+												        ctxXSLT aws_oracle_ext.dbms_xmlquery$TctxDictionary default null, --text,
+												        ctxXSLTParam aws_oracle_ext.dbms_xmlquery$TctxDictionary default null, --text,
+												        ctxUseNullAttributeIndicator boolean default null,
+												        ctxUseTypeForCollElemTag boolean default null
+	                                                  )
+ returns text
+ language sql
+ set search_path to 'aws_oracle_ext'
+as $$ select dbms_xmlquery$contextAttr2text((ctxBindValue,
+	  			                             ctxDataHeader,
+	                                         ctxCallIdAttrName,
+	                                         coalesce(ctxDateFormat, dbms_xmlquery$default_date_format()),
+	                                         coalesce(ctxEncodingTag, dbms_xmlquery$db_encoding()),
+	                                         coalesce(ctxErrorTag, dbms_xmlquery$default_errortag()),
+	                                         coalesce(ctxMaxRows, dbms_xmlquery$all_rows()),
+	                                         ctxMateHeader,
+	                                         ctxRaiseException,
+	                                         ctxRaiseNoRowsException,
+	                                         ctxRowidAttrName,
+	                                         ctxRowIdAttrValue,
+	                                         coalesce(ctxRowSetTag, dbms_xmlquery$default_rowsettag()),
+	                                         coalesce(ctxRowTag, dbms_xmlquery$default_rowtag()),
+	                                         coalesce(ctxSkipRows, 0),
+	                                         ctxSQLToXMLNameescaping,
+	                                         ctxStyleSheetHeader,
+	                                         ctxTagCase,
+	                                         ctxXSLT,
+	                                         ctxXSLTParam,
+	                                         ctxUseNullAttributeIndicator,
+	                                         ctxUseTypeForCollElemTag
+	                                        )::dbms_xmlquery$TctxAttributes)::text $$
+;

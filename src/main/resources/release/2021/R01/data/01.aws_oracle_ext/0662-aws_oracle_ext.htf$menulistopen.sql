@@ -1,0 +1,11 @@
+CREATE OR REPLACE FUNCTION aws_oracle_ext.htf$menulistOpen() 
+RETURNS TEXT AS
+$BODY$
+
+    SELECT '<menu>';
+
+$BODY$
+LANGUAGE SQL
+IMMUTABLE;
+
+

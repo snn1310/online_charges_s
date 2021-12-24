@@ -1,0 +1,1 @@
+COMMENT ON FUNCTION aws_oracle_ext.to_char(DOUBLE PRECISION, VARCHAR, VARCHAR) IS 'to_char convertion Number as Oracle does. Some Format models could return incorrect results. Only NLS_DATE_LANGUAGE is allowed for NLS param. Value must be correct as lc_time value';

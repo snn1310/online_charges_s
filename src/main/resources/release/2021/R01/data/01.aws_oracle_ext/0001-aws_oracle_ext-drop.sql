@@ -1,0 +1,1 @@
+DROP SCHEMA IF EXISTS aws_oracle_ext CASCADE;

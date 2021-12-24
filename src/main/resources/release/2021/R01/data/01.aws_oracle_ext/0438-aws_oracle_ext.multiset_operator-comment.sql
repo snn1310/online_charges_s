@@ -1,0 +1,1 @@
+COMMENT ON FUNCTION aws_oracle_ext.multiset_operator (IN TEXT, IN TEXT, IN TEXT, IN anyelement, IN TEXT, IN TEXT, IN BOOLEAN) IS 'Emulates MULTISET OPERATORS for Nested tables. Please, note collection members order (differs from Oracle)';

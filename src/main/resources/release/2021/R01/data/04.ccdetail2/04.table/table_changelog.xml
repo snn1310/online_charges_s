@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#2661" author="msavch" failOnError="false">
+	     <comment> Install table 0. ccdetail2.billing_detail</comment>
+	     <sqlFile path="0. ccdetail2.billing_detail.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2662" author="msavch" failOnError="false">
+	     <comment> Install table 1. ccdetail2.content</comment>
+	     <sqlFile path="1. ccdetail2.content.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2663" author="msavch" failOnError="false">
+	     <comment> Install table 2. ccdetail2.customer_detail</comment>
+	     <sqlFile path="2. ccdetail2.customer_detail.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2664" author="msavch" failOnError="false">
+	     <comment> Install table 3. ccdetail2.discount_detail</comment>
+	     <sqlFile path="3. ccdetail2.discount_detail.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2665" author="msavch" failOnError="false">
+	     <comment> Install table 4. ccdetail2.error_log</comment>
+	     <sqlFile path="4. ccdetail2.error_log.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2666" author="msavch" failOnError="false">
+	     <comment> Install table 5. ccdetail2.event_history</comment>
+	     <sqlFile path="5. ccdetail2.event_history.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2667" author="msavch" failOnError="false">
+	     <comment> Install table 6. ccdetail2.gateway_royalty</comment>
+	     <sqlFile path="6. ccdetail2.gateway_royalty.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2668" author="msavch" failOnError="false">
+	     <comment> Install table 7. ccdetail2.jurisdiction</comment>
+	     <sqlFile path="7. ccdetail2.jurisdiction.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2669" author="msavch" failOnError="false">
+	     <comment> Install table 8. ccdetail2.roy_tran_usg_detail</comment>
+	     <sqlFile path="8. ccdetail2.roy_tran_usg_detail.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2670" author="msavch" failOnError="false">
+	     <comment> Install table 9. ccdetail2.roy_tran_usg_pricing</comment>
+	     <sqlFile path="9. ccdetail2.roy_tran_usg_pricing.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2671" author="msavch" failOnError="false">
+	     <comment> Install table 10. ccdetail2.royalty_tran_usage</comment>
+	     <sqlFile path="10. ccdetail2.royalty_tran_usage.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2672" author="msavch" failOnError="false">
+	     <comment> Install table 11. ccdetail2.segment_detail</comment>
+	     <sqlFile path="11. ccdetail2.segment_detail.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2673" author="msavch" failOnError="false">
+	     <comment> Install table 12. ccdetail2.session_detail</comment>
+	     <sqlFile path="12. ccdetail2.session_detail.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2674" author="msavch" failOnError="false">
+	     <comment> Install table 13. ccdetail2.session_status</comment>
+	     <sqlFile path="13. ccdetail2.session_status.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2675" author="msavch" failOnError="false">
+	     <comment> Install table 14. ccdetail2.time_inplan</comment>
+	     <sqlFile path="14. ccdetail2.time_inplan.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2676" author="msavch" failOnError="false">
+	     <comment> Install table 15. ccdetail2.time_royalty</comment>
+	     <sqlFile path="15. ccdetail2.time_royalty.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2677" author="msavch" failOnError="false">
+	     <comment> Install table 16. ccdetail2.tran_inplan</comment>
+	     <sqlFile path="16. ccdetail2.tran_inplan.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2678" author="msavch" failOnError="false">
+	     <comment> Install table 17. ccdetail2.tran_royalty</comment>
+	     <sqlFile path="17. ccdetail2.tran_royalty.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2679" author="msavch" failOnError="false">
+	     <comment> Install table 18. ccdetail2.transaction_document</comment>
+	     <sqlFile path="18. ccdetail2.transaction_document.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2680" author="msavch" failOnError="false">
+	     <comment> Install table 19. ccdetail2.transaction_usage</comment>
+	     <sqlFile path="19. ccdetail2.transaction_usage.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2681" author="msavch" failOnError="false">
+	     <comment> Install table 20. ccdetail2.usg_billing_detail</comment>
+	     <sqlFile path="20. ccdetail2.usg_billing_detail.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2682" author="msavch" failOnError="false">
+	     <comment> Install table 21. ccdetail2.warn</comment>
+	     <sqlFile path="21. ccdetail2.warn.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#2683" author="msavch" failOnError="false">
+	     <comment> Install table 22. ccdetail2.warn_promo</comment>
+	     <sqlFile path="22. ccdetail2.warn_promo.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

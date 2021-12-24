@@ -1,0 +1,32 @@
+CREATE TABLE ccdetail1.ccdetail1_stats(
+    statid CHARACTER VARYING(30),
+    type CHARACTER(1),
+    version INTEGER,
+    flags INTEGER,
+    c1 CHARACTER VARYING(30),
+    c2 CHARACTER VARYING(30),
+    c3 CHARACTER VARYING(30),
+    c4 CHARACTER VARYING(30),
+    c5 CHARACTER VARYING(30),
+    n1 INTEGER,
+    n2 NUMERIC,
+    n3 INTEGER,
+    n4 INTEGER,
+    n5 INTEGER,
+    n6 NUMERIC,
+    n7 NUMERIC,
+    n8 INTEGER,
+    n9 INTEGER,
+    n10 INTEGER,
+    n11 NUMERIC,
+    n12 DOUBLE PRECISION,
+    d1 TIMESTAMP(0) WITHOUT TIME ZONE,
+    r1 BYTEA,
+    r2 BYTEA,
+    ch1 CHARACTER VARYING(1000),
+    cl1 TEXT
+)
+        WITH (
+        OIDS=FALSE
+        );
+

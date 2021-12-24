@@ -1,0 +1,1 @@
+comment on view aws_oracle_ext.v$version is 'V$VERSION emulation';

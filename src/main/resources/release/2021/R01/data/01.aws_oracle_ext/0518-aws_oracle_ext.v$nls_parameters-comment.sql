@@ -1,0 +1,1 @@
+COMMENT ON VIEW aws_oracle_ext.v$nls_parameters IS 'Emulation for oracle NLS view';

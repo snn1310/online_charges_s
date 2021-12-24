@@ -1,0 +1,1 @@
+CREATE SCHEMA aws_oracle_ext;

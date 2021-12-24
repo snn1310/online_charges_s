@@ -1,0 +1,13 @@
+CREATE OR REPLACE FUNCTION aws_oracle_ext.last_day(IN pDate DATE)
+RETURNS DATE
+AS
+$BODY$
+
+    SELECT (
+        DATE_TRUNC('month', pDate) +'1month'::INTERVAL - '1 day'::INTERVAL
+    )::DATE;
+
+$BODY$
+LANGUAGE SQL
+IMMUTABLE
+RETURNS NULL ON NULL INPUT;

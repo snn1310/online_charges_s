@@ -1,0 +1,1 @@
+CREATE INDEX IF NOT EXISTS aoe_nls_territory_ux_idx ON aws_oracle_ext.nls_parameters(pg_territory_ux);

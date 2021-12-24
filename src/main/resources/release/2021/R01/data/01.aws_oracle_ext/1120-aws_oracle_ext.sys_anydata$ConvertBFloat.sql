@@ -1,0 +1,9 @@
+CREATE OR REPLACE FUNCTION aws_oracle_ext.sys_anydata$convertbfloat(value REAL)
+ RETURNS jsonb
+IMMUTABLE
+PARALLEL SAFE
+AS
+$BODY$
+    SELECT JSONB_BUILD_OBJECT('SYS.BINARY_FLOAT', $1);    
+$BODY$
+LANGUAGE sql;

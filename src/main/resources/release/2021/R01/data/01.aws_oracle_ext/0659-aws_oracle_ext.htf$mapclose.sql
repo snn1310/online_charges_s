@@ -1,0 +1,11 @@
+CREATE OR REPLACE FUNCTION aws_oracle_ext.htf$mapClose() 
+RETURNS TEXT AS
+$BODY$
+
+    SELECT '</map>';
+
+$BODY$
+LANGUAGE SQL
+IMMUTABLE;
+
+

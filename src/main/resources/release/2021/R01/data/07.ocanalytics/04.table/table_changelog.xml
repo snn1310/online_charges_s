@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#6967" author="msavch" failOnError="false">
+	     <comment> Install table 0. ocanalytics.analytics_correction</comment>
+	     <sqlFile path="0. ocanalytics.analytics_correction.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6968" author="msavch" failOnError="false">
+	     <comment> Install table 1. ocanalytics.analytics_correction_new</comment>
+	     <sqlFile path="1. ocanalytics.analytics_correction_new.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6969" author="msavch" failOnError="false">
+	     <comment> Install table 2. ocanalytics.analytics_correction_old</comment>
+	     <sqlFile path="2. ocanalytics.analytics_correction_old.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6970" author="msavch" failOnError="false">
+	     <comment> Install table 3. ocanalytics.analytics_segment</comment>
+	     <sqlFile path="3. ocanalytics.analytics_segment.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6971" author="msavch" failOnError="false">
+	     <comment> Install table 4. ocanalytics.analytics_segment_corr</comment>
+	     <sqlFile path="4. ocanalytics.analytics_segment_corr.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6972" author="msavch" failOnError="false">
+	     <comment> Install table 5. ocanalytics.analytics_totals</comment>
+	     <sqlFile path="5. ocanalytics.analytics_totals.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6973" author="msavch" failOnError="false">
+	     <comment> Install table 6. ocanalytics.analytics_transaction</comment>
+	     <sqlFile path="6. ocanalytics.analytics_transaction.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6974" author="msavch" failOnError="false">
+	     <comment> Install table 7. ocanalytics.analytics_transaction_corr</comment>
+	     <sqlFile path="7. ocanalytics.analytics_transaction_corr.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6975" author="msavch" failOnError="false">
+	     <comment> Install table 8. ocanalytics.availability</comment>
+	     <sqlFile path="8. ocanalytics.availability.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6976" author="msavch" failOnError="false">
+	     <comment> Install table 9. ocanalytics.balance_totals</comment>
+	     <sqlFile path="9. ocanalytics.balance_totals.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6977" author="msavch" failOnError="false">
+	     <comment> Install table 10. ocanalytics.content_day</comment>
+	     <sqlFile path="10. ocanalytics.content_day.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6978" author="msavch" failOnError="false">
+	     <comment> Install table 11. ocanalytics.control_table</comment>
+	     <sqlFile path="11. ocanalytics.control_table.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6979" author="msavch" failOnError="false">
+	     <comment> Install table 12. ocanalytics.jurisdiction_day</comment>
+	     <sqlFile path="12. ocanalytics.jurisdiction_day.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6980" author="msavch" failOnError="false">
+	     <comment> Install table 13. ocanalytics.onl_serv_type_group</comment>
+	     <sqlFile path="13. ocanalytics.onl_serv_type_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6981" author="msavch" failOnError="false">
+	     <comment> Install table 14. ocanalytics.onl_serv_type_mapping</comment>
+	     <sqlFile path="14. ocanalytics.onl_serv_type_mapping.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6982" author="msavch" failOnError="false">
+	     <comment> Install table 15. ocanalytics.schema_version</comment>
+	     <sqlFile path="15. ocanalytics.schema_version.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6983" author="msavch" failOnError="false">
+	     <comment> Install table 16. ocanalytics.test01</comment>
+	     <sqlFile path="16. ocanalytics.test01.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6984" author="msavch" failOnError="false">
+	     <comment> Install table 17. ocanalytics.test_day</comment>
+	     <sqlFile path="17. ocanalytics.test_day.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6985" author="msavch" failOnError="false">
+	     <comment> Install table 18. ocanalytics.test_serv_type_group</comment>
+	     <sqlFile path="18. ocanalytics.test_serv_type_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6986" author="msavch" failOnError="false">
+	     <comment> Install table 19. ocanalytics.usage_day</comment>
+	     <sqlFile path="19. ocanalytics.usage_day.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6987" author="msavch" failOnError="false">
+	     <comment> Install table 20. ocanalytics.usage_day_correction_old</comment>
+	     <sqlFile path="20. ocanalytics.usage_day_correction_old.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

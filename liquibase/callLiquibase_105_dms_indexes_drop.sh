@@ -1,0 +1,1 @@
+bash $JENKINS_HOME/liquibase/liquibase  --loglevel=debug --changeLogFile=src/main/resources/release/2021/R01/data/19.add_scripts/dms_index_drop_changelog.xml --username=postgres --password=1wvPopCqkWcNCZlF7UKq --url=jdbc:postgresql://online-charges-services-test.cluster-cerpcbpr86ue.eu-west-2.rds.amazonaws.com:5432/a204790_uat update

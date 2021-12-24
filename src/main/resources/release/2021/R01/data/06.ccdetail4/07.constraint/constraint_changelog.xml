@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#6941" author="msavch" failOnError="false">
+	     <comment> Install constraint 0. ccdetail4.billing_detail.billing_detail_pk</comment>
+	     <sqlFile path="0. ccdetail4.billing_detail.billing_detail_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6942" author="msavch" failOnError="false">
+	     <comment> Install constraint 1. ccdetail4.content.content_pk</comment>
+	     <sqlFile path="1. ccdetail4.content.content_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6943" author="msavch" failOnError="false">
+	     <comment> Install constraint 2. ccdetail4.customer_detail.customer_detail_pk</comment>
+	     <sqlFile path="2. ccdetail4.customer_detail.customer_detail_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6944" author="msavch" failOnError="false">
+	     <comment> Install constraint 3. ccdetail4.discount_detail.discount_detail_pk</comment>
+	     <sqlFile path="3. ccdetail4.discount_detail.discount_detail_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6945" author="msavch" failOnError="false">
+	     <comment> Install constraint 4. ccdetail4.error_log.error_log_pk</comment>
+	     <sqlFile path="4. ccdetail4.error_log.error_log_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6946" author="msavch" failOnError="false">
+	     <comment> Install constraint 5. ccdetail4.event_history.event_history_pk</comment>
+	     <sqlFile path="5. ccdetail4.event_history.event_history_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6947" author="msavch" failOnError="false">
+	     <comment> Install constraint 6. ccdetail4.gateway_royalty.gateway_royalty_pk</comment>
+	     <sqlFile path="6. ccdetail4.gateway_royalty.gateway_royalty_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6948" author="msavch" failOnError="false">
+	     <comment> Install constraint 7. ccdetail4.jurisdiction.jurisdiction_pk</comment>
+	     <sqlFile path="7. ccdetail4.jurisdiction.jurisdiction_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6949" author="msavch" failOnError="false">
+	     <comment> Install constraint 8. ccdetail4.roy_tran_usg_detail.roy_tran_usg_detail_pk</comment>
+	     <sqlFile path="8. ccdetail4.roy_tran_usg_detail.roy_tran_usg_detail_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6950" author="msavch" failOnError="false">
+	     <comment> Install constraint 9. ccdetail4.roy_tran_usg_pricing.roy_tran_usg_pricing_pk</comment>
+	     <sqlFile path="9. ccdetail4.roy_tran_usg_pricing.roy_tran_usg_pricing_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6951" author="msavch" failOnError="false">
+	     <comment> Install constraint 10. ccdetail4.royalty_tran_usage.royalty_tran_usage_pk</comment>
+	     <sqlFile path="10. ccdetail4.royalty_tran_usage.royalty_tran_usage_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6952" author="msavch" failOnError="false">
+	     <comment> Install constraint 11. ccdetail4.segment_detail.segment_detail_pk</comment>
+	     <sqlFile path="11. ccdetail4.segment_detail.segment_detail_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6953" author="msavch" failOnError="false">
+	     <comment> Install constraint 12. ccdetail4.session_detail.session_detail_pk</comment>
+	     <sqlFile path="12. ccdetail4.session_detail.session_detail_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6954" author="msavch" failOnError="false">
+	     <comment> Install constraint 13. ccdetail4.session_status.xpksession_status</comment>
+	     <sqlFile path="13. ccdetail4.session_status.xpksession_status.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6955" author="msavch" failOnError="false">
+	     <comment> Install constraint 14. ccdetail4.time_inplan.time_inplan_pk</comment>
+	     <sqlFile path="14. ccdetail4.time_inplan.time_inplan_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6956" author="msavch" failOnError="false">
+	     <comment> Install constraint 15. ccdetail4.time_royalty.time_royalty_pk</comment>
+	     <sqlFile path="15. ccdetail4.time_royalty.time_royalty_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6957" author="msavch" failOnError="false">
+	     <comment> Install constraint 16. ccdetail4.tran_inplan.tran_inplan_pk</comment>
+	     <sqlFile path="16. ccdetail4.tran_inplan.tran_inplan_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6958" author="msavch" failOnError="false">
+	     <comment> Install constraint 17. ccdetail4.tran_royalty.tran_royalty_pk</comment>
+	     <sqlFile path="17. ccdetail4.tran_royalty.tran_royalty_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6959" author="msavch" failOnError="false">
+	     <comment> Install constraint 18. ccdetail4.transaction_document.transaction_document_pk</comment>
+	     <sqlFile path="18. ccdetail4.transaction_document.transaction_document_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6960" author="msavch" failOnError="false">
+	     <comment> Install constraint 19. ccdetail4.transaction_usage.transaction_usage_pk</comment>
+	     <sqlFile path="19. ccdetail4.transaction_usage.transaction_usage_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6961" author="msavch" failOnError="false">
+	     <comment> Install constraint 20. ccdetail4.usg_billing_detail.usg_billing_detail_pk</comment>
+	     <sqlFile path="20. ccdetail4.usg_billing_detail.usg_billing_detail_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6962" author="msavch" failOnError="false">
+	     <comment> Install constraint 21. ccdetail4.warn.warn_pk</comment>
+	     <sqlFile path="21. ccdetail4.warn.warn_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6963" author="msavch" failOnError="false">
+	     <comment> Install constraint 22. ccdetail4.warn_promo.warn_promo_pk</comment>
+	     <sqlFile path="22. ccdetail4.warn_promo.warn_promo_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

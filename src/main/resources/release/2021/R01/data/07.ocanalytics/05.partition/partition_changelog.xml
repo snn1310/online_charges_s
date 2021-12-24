@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#6988" author="msavch" failOnError="false">
+	     <comment> Install partition 0. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20190701</comment>
+	     <sqlFile path="0. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20190701.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6989" author="msavch" failOnError="false">
+	     <comment> Install partition 1. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20190801</comment>
+	     <sqlFile path="1. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20190801.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6990" author="msavch" failOnError="false">
+	     <comment> Install partition 2. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20190901</comment>
+	     <sqlFile path="2. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20190901.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6991" author="msavch" failOnError="false">
+	     <comment> Install partition 3. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20191001</comment>
+	     <sqlFile path="3. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20191001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6992" author="msavch" failOnError="false">
+	     <comment> Install partition 4. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20191101</comment>
+	     <sqlFile path="4. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20191101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6993" author="msavch" failOnError="false">
+	     <comment> Install partition 5. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20191201</comment>
+	     <sqlFile path="5. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20191201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6994" author="msavch" failOnError="false">
+	     <comment> Install partition 6. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20200101</comment>
+	     <sqlFile path="6. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20200101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6995" author="msavch" failOnError="false">
+	     <comment> Install partition 7. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20200201</comment>
+	     <sqlFile path="7. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20200201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6996" author="msavch" failOnError="false">
+	     <comment> Install partition 8. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20200301</comment>
+	     <sqlFile path="8. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20200301.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6997" author="msavch" failOnError="false">
+	     <comment> Install partition 9. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20200401</comment>
+	     <sqlFile path="9. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20200401.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6998" author="msavch" failOnError="false">
+	     <comment> Install partition 10. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20200501</comment>
+	     <sqlFile path="10. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20200501.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#6999" author="msavch" failOnError="false">
+	     <comment> Install partition 11. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20200601</comment>
+	     <sqlFile path="11. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20200601.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7000" author="msavch" failOnError="false">
+	     <comment> Install partition 12. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20200701</comment>
+	     <sqlFile path="12. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20200701.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7001" author="msavch" failOnError="false">
+	     <comment> Install partition 13. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20200801</comment>
+	     <sqlFile path="13. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20200801.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7002" author="msavch" failOnError="false">
+	     <comment> Install partition 14. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20200901</comment>
+	     <sqlFile path="14. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20200901.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7003" author="msavch" failOnError="false">
+	     <comment> Install partition 15. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20201001</comment>
+	     <sqlFile path="15. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20201001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7004" author="msavch" failOnError="false">
+	     <comment> Install partition 16. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20201101</comment>
+	     <sqlFile path="16. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20201101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7005" author="msavch" failOnError="false">
+	     <comment> Install partition 17. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20201201</comment>
+	     <sqlFile path="17. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20201201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7006" author="msavch" failOnError="false">
+	     <comment> Install partition 18. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20210101</comment>
+	     <sqlFile path="18. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20210101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7007" author="msavch" failOnError="false">
+	     <comment> Install partition 19. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20210201</comment>
+	     <sqlFile path="19. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20210201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7008" author="msavch" failOnError="false">
+	     <comment> Install partition 20. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20210301</comment>
+	     <sqlFile path="20. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20210301.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7009" author="msavch" failOnError="false">
+	     <comment> Install partition 21. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20210401</comment>
+	     <sqlFile path="21. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20210401.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7010" author="msavch" failOnError="false">
+	     <comment> Install partition 22. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20210501</comment>
+	     <sqlFile path="22. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20210501.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7011" author="msavch" failOnError="false">
+	     <comment> Install partition 23. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20210601</comment>
+	     <sqlFile path="23. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20210601.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7012" author="msavch" failOnError="false">
+	     <comment> Install partition 24. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20210701</comment>
+	     <sqlFile path="24. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20210701.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7013" author="msavch" failOnError="false">
+	     <comment> Install partition 25. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20210801</comment>
+	     <sqlFile path="25. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20210801.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7014" author="msavch" failOnError="false">
+	     <comment> Install partition 26. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20210901</comment>
+	     <sqlFile path="26. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20210901.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7015" author="msavch" failOnError="false">
+	     <comment> Install partition 27. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20211001</comment>
+	     <sqlFile path="27. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20211001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7016" author="msavch" failOnError="false">
+	     <comment> Install partition 28. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20211101</comment>
+	     <sqlFile path="28. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20211101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7017" author="msavch" failOnError="false">
+	     <comment> Install partition 29. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20211201</comment>
+	     <sqlFile path="29. ocanalytics.analytics_correction.analytics_correction_ac_usage_date_20211201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7018" author="msavch" failOnError="false">
+	     <comment> Install partition 30. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20170101</comment>
+	     <sqlFile path="30. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20170101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7019" author="msavch" failOnError="false">
+	     <comment> Install partition 31. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20170201</comment>
+	     <sqlFile path="31. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20170201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7020" author="msavch" failOnError="false">
+	     <comment> Install partition 32. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20170301</comment>
+	     <sqlFile path="32. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20170301.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7021" author="msavch" failOnError="false">
+	     <comment> Install partition 33. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20170401</comment>
+	     <sqlFile path="33. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20170401.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7022" author="msavch" failOnError="false">
+	     <comment> Install partition 34. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20170501</comment>
+	     <sqlFile path="34. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20170501.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7023" author="msavch" failOnError="false">
+	     <comment> Install partition 35. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20170601</comment>
+	     <sqlFile path="35. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20170601.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7024" author="msavch" failOnError="false">
+	     <comment> Install partition 36. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20170701</comment>
+	     <sqlFile path="36. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20170701.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7025" author="msavch" failOnError="false">
+	     <comment> Install partition 37. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20170801</comment>
+	     <sqlFile path="37. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20170801.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7026" author="msavch" failOnError="false">
+	     <comment> Install partition 38. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20170901</comment>
+	     <sqlFile path="38. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20170901.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7027" author="msavch" failOnError="false">
+	     <comment> Install partition 39. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20171001</comment>
+	     <sqlFile path="39. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20171001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7028" author="msavch" failOnError="false">
+	     <comment> Install partition 40. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20171101</comment>
+	     <sqlFile path="40. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20171101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7029" author="msavch" failOnError="false">
+	     <comment> Install partition 41. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20171201</comment>
+	     <sqlFile path="41. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20171201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7030" author="msavch" failOnError="false">
+	     <comment> Install partition 42. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20180101</comment>
+	     <sqlFile path="42. ocanalytics.analytics_correction_new.analytics_correction_new_ac_usage_date_20180101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7031" author="msavch" failOnError="false">
+	     <comment> Install partition 43. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20210301</comment>
+	     <sqlFile path="43. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20210301.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7032" author="msavch" failOnError="false">
+	     <comment> Install partition 44. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20210401</comment>
+	     <sqlFile path="44. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20210401.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7033" author="msavch" failOnError="false">
+	     <comment> Install partition 45. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20210501</comment>
+	     <sqlFile path="45. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20210501.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7034" author="msavch" failOnError="false">
+	     <comment> Install partition 46. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20210601</comment>
+	     <sqlFile path="46. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20210601.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7035" author="msavch" failOnError="false">
+	     <comment> Install partition 47. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20210701</comment>
+	     <sqlFile path="47. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20210701.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7036" author="msavch" failOnError="false">
+	     <comment> Install partition 48. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20210801</comment>
+	     <sqlFile path="48. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20210801.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7037" author="msavch" failOnError="false">
+	     <comment> Install partition 49. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20210901</comment>
+	     <sqlFile path="49. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20210901.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7038" author="msavch" failOnError="false">
+	     <comment> Install partition 50. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20211001</comment>
+	     <sqlFile path="50. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20211001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7039" author="msavch" failOnError="false">
+	     <comment> Install partition 51. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20211101</comment>
+	     <sqlFile path="51. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20211101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7040" author="msavch" failOnError="false">
+	     <comment> Install partition 52. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20211201</comment>
+	     <sqlFile path="52. ocanalytics.analytics_segment.analytics_segment_as_usage_date_20211201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7041" author="msavch" failOnError="false">
+	     <comment> Install partition 53. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20210301</comment>
+	     <sqlFile path="53. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20210301.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7042" author="msavch" failOnError="false">
+	     <comment> Install partition 54. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20210401</comment>
+	     <sqlFile path="54. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20210401.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7043" author="msavch" failOnError="false">
+	     <comment> Install partition 55. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20210501</comment>
+	     <sqlFile path="55. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20210501.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7044" author="msavch" failOnError="false">
+	     <comment> Install partition 56. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20210601</comment>
+	     <sqlFile path="56. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20210601.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7045" author="msavch" failOnError="false">
+	     <comment> Install partition 57. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20210701</comment>
+	     <sqlFile path="57. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20210701.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7046" author="msavch" failOnError="false">
+	     <comment> Install partition 58. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20210801</comment>
+	     <sqlFile path="58. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20210801.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7047" author="msavch" failOnError="false">
+	     <comment> Install partition 59. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20210901</comment>
+	     <sqlFile path="59. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20210901.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7048" author="msavch" failOnError="false">
+	     <comment> Install partition 60. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20211001</comment>
+	     <sqlFile path="60. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20211001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7049" author="msavch" failOnError="false">
+	     <comment> Install partition 61. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20211101</comment>
+	     <sqlFile path="61. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20211101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7050" author="msavch" failOnError="false">
+	     <comment> Install partition 62. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20211201</comment>
+	     <sqlFile path="62. ocanalytics.analytics_segment_corr.analytics_segment_corr_asc_usage_date_20211201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7051" author="msavch" failOnError="false">
+	     <comment> Install partition 63. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20210301</comment>
+	     <sqlFile path="63. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20210301.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7052" author="msavch" failOnError="false">
+	     <comment> Install partition 64. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20210401</comment>
+	     <sqlFile path="64. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20210401.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7053" author="msavch" failOnError="false">
+	     <comment> Install partition 65. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20210501</comment>
+	     <sqlFile path="65. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20210501.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7054" author="msavch" failOnError="false">
+	     <comment> Install partition 66. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20210601</comment>
+	     <sqlFile path="66. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20210601.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7055" author="msavch" failOnError="false">
+	     <comment> Install partition 67. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20210701</comment>
+	     <sqlFile path="67. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20210701.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7056" author="msavch" failOnError="false">
+	     <comment> Install partition 68. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20210801</comment>
+	     <sqlFile path="68. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20210801.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7057" author="msavch" failOnError="false">
+	     <comment> Install partition 69. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20210901</comment>
+	     <sqlFile path="69. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20210901.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7058" author="msavch" failOnError="false">
+	     <comment> Install partition 70. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20211001</comment>
+	     <sqlFile path="70. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20211001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7059" author="msavch" failOnError="false">
+	     <comment> Install partition 71. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20211101</comment>
+	     <sqlFile path="71. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20211101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7060" author="msavch" failOnError="false">
+	     <comment> Install partition 72. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20211201</comment>
+	     <sqlFile path="72. ocanalytics.analytics_transaction.analytics_transaction_at_usage_date_20211201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7061" author="msavch" failOnError="false">
+	     <comment> Install partition 73. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20210301</comment>
+	     <sqlFile path="73. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20210301.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7062" author="msavch" failOnError="false">
+	     <comment> Install partition 74. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20210401</comment>
+	     <sqlFile path="74. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20210401.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7063" author="msavch" failOnError="false">
+	     <comment> Install partition 75. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20210501</comment>
+	     <sqlFile path="75. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20210501.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7064" author="msavch" failOnError="false">
+	     <comment> Install partition 76. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20210601</comment>
+	     <sqlFile path="76. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20210601.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7065" author="msavch" failOnError="false">
+	     <comment> Install partition 77. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20210701</comment>
+	     <sqlFile path="77. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20210701.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7066" author="msavch" failOnError="false">
+	     <comment> Install partition 78. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20210801</comment>
+	     <sqlFile path="78. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20210801.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7067" author="msavch" failOnError="false">
+	     <comment> Install partition 79. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20210901</comment>
+	     <sqlFile path="79. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20210901.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7068" author="msavch" failOnError="false">
+	     <comment> Install partition 80. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20211001</comment>
+	     <sqlFile path="80. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20211001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7069" author="msavch" failOnError="false">
+	     <comment> Install partition 81. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20211101</comment>
+	     <sqlFile path="81. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20211101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7070" author="msavch" failOnError="false">
+	     <comment> Install partition 82. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20211201</comment>
+	     <sqlFile path="82. ocanalytics.analytics_transaction_corr.analytics_transaction_corr_atc_usage_date_20211201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7071" author="msavch" failOnError="false">
+	     <comment> Install partition 83. ocanalytics.content_day.content_day_cd_date_20190701</comment>
+	     <sqlFile path="83. ocanalytics.content_day.content_day_cd_date_20190701.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7072" author="msavch" failOnError="false">
+	     <comment> Install partition 84. ocanalytics.content_day.content_day_cd_date_20190801</comment>
+	     <sqlFile path="84. ocanalytics.content_day.content_day_cd_date_20190801.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7073" author="msavch" failOnError="false">
+	     <comment> Install partition 85. ocanalytics.content_day.content_day_cd_date_20190901</comment>
+	     <sqlFile path="85. ocanalytics.content_day.content_day_cd_date_20190901.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7074" author="msavch" failOnError="false">
+	     <comment> Install partition 86. ocanalytics.content_day.content_day_cd_date_20191001</comment>
+	     <sqlFile path="86. ocanalytics.content_day.content_day_cd_date_20191001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7075" author="msavch" failOnError="false">
+	     <comment> Install partition 87. ocanalytics.content_day.content_day_cd_date_20191101</comment>
+	     <sqlFile path="87. ocanalytics.content_day.content_day_cd_date_20191101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7076" author="msavch" failOnError="false">
+	     <comment> Install partition 88. ocanalytics.content_day.content_day_cd_date_20191201</comment>
+	     <sqlFile path="88. ocanalytics.content_day.content_day_cd_date_20191201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7077" author="msavch" failOnError="false">
+	     <comment> Install partition 89. ocanalytics.content_day.content_day_cd_date_20200101</comment>
+	     <sqlFile path="89. ocanalytics.content_day.content_day_cd_date_20200101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7078" author="msavch" failOnError="false">
+	     <comment> Install partition 90. ocanalytics.content_day.content_day_cd_date_20200201</comment>
+	     <sqlFile path="90. ocanalytics.content_day.content_day_cd_date_20200201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7079" author="msavch" failOnError="false">
+	     <comment> Install partition 91. ocanalytics.content_day.content_day_cd_date_20200301</comment>
+	     <sqlFile path="91. ocanalytics.content_day.content_day_cd_date_20200301.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7080" author="msavch" failOnError="false">
+	     <comment> Install partition 92. ocanalytics.content_day.content_day_cd_date_20200401</comment>
+	     <sqlFile path="92. ocanalytics.content_day.content_day_cd_date_20200401.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7081" author="msavch" failOnError="false">
+	     <comment> Install partition 93. ocanalytics.content_day.content_day_cd_date_20200501</comment>
+	     <sqlFile path="93. ocanalytics.content_day.content_day_cd_date_20200501.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7082" author="msavch" failOnError="false">
+	     <comment> Install partition 94. ocanalytics.content_day.content_day_cd_date_20200601</comment>
+	     <sqlFile path="94. ocanalytics.content_day.content_day_cd_date_20200601.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7083" author="msavch" failOnError="false">
+	     <comment> Install partition 95. ocanalytics.content_day.content_day_cd_date_20200701</comment>
+	     <sqlFile path="95. ocanalytics.content_day.content_day_cd_date_20200701.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7084" author="msavch" failOnError="false">
+	     <comment> Install partition 96. ocanalytics.content_day.content_day_cd_date_20200801</comment>
+	     <sqlFile path="96. ocanalytics.content_day.content_day_cd_date_20200801.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7085" author="msavch" failOnError="false">
+	     <comment> Install partition 97. ocanalytics.content_day.content_day_cd_date_20200901</comment>
+	     <sqlFile path="97. ocanalytics.content_day.content_day_cd_date_20200901.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7086" author="msavch" failOnError="false">
+	     <comment> Install partition 98. ocanalytics.content_day.content_day_cd_date_20201001</comment>
+	     <sqlFile path="98. ocanalytics.content_day.content_day_cd_date_20201001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7087" author="msavch" failOnError="false">
+	     <comment> Install partition 99. ocanalytics.content_day.content_day_cd_date_20201101</comment>
+	     <sqlFile path="99. ocanalytics.content_day.content_day_cd_date_20201101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7088" author="msavch" failOnError="false">
+	     <comment> Install partition 100. ocanalytics.content_day.content_day_cd_date_20201201</comment>
+	     <sqlFile path="100. ocanalytics.content_day.content_day_cd_date_20201201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7089" author="msavch" failOnError="false">
+	     <comment> Install partition 101. ocanalytics.content_day.content_day_cd_date_20210101</comment>
+	     <sqlFile path="101. ocanalytics.content_day.content_day_cd_date_20210101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7090" author="msavch" failOnError="false">
+	     <comment> Install partition 102. ocanalytics.content_day.content_day_cd_date_20210201</comment>
+	     <sqlFile path="102. ocanalytics.content_day.content_day_cd_date_20210201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7091" author="msavch" failOnError="false">
+	     <comment> Install partition 103. ocanalytics.content_day.content_day_cd_date_20210301</comment>
+	     <sqlFile path="103. ocanalytics.content_day.content_day_cd_date_20210301.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7092" author="msavch" failOnError="false">
+	     <comment> Install partition 104. ocanalytics.content_day.content_day_cd_date_20210401</comment>
+	     <sqlFile path="104. ocanalytics.content_day.content_day_cd_date_20210401.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7093" author="msavch" failOnError="false">
+	     <comment> Install partition 105. ocanalytics.content_day.content_day_cd_date_20210501</comment>
+	     <sqlFile path="105. ocanalytics.content_day.content_day_cd_date_20210501.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7094" author="msavch" failOnError="false">
+	     <comment> Install partition 106. ocanalytics.content_day.content_day_cd_date_20210601</comment>
+	     <sqlFile path="106. ocanalytics.content_day.content_day_cd_date_20210601.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7095" author="msavch" failOnError="false">
+	     <comment> Install partition 107. ocanalytics.content_day.content_day_cd_date_20210701</comment>
+	     <sqlFile path="107. ocanalytics.content_day.content_day_cd_date_20210701.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7096" author="msavch" failOnError="false">
+	     <comment> Install partition 108. ocanalytics.content_day.content_day_cd_date_20210801</comment>
+	     <sqlFile path="108. ocanalytics.content_day.content_day_cd_date_20210801.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7097" author="msavch" failOnError="false">
+	     <comment> Install partition 109. ocanalytics.content_day.content_day_cd_date_20210901</comment>
+	     <sqlFile path="109. ocanalytics.content_day.content_day_cd_date_20210901.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7098" author="msavch" failOnError="false">
+	     <comment> Install partition 110. ocanalytics.content_day.content_day_cd_date_20211001</comment>
+	     <sqlFile path="110. ocanalytics.content_day.content_day_cd_date_20211001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7099" author="msavch" failOnError="false">
+	     <comment> Install partition 111. ocanalytics.content_day.content_day_cd_date_20211101</comment>
+	     <sqlFile path="111. ocanalytics.content_day.content_day_cd_date_20211101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7100" author="msavch" failOnError="false">
+	     <comment> Install partition 112. ocanalytics.content_day.content_day_cd_date_20211201</comment>
+	     <sqlFile path="112. ocanalytics.content_day.content_day_cd_date_20211201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7101" author="msavch" failOnError="false">
+	     <comment> Install partition 113. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20190701</comment>
+	     <sqlFile path="113. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20190701.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7102" author="msavch" failOnError="false">
+	     <comment> Install partition 114. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20190801</comment>
+	     <sqlFile path="114. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20190801.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7103" author="msavch" failOnError="false">
+	     <comment> Install partition 115. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20190901</comment>
+	     <sqlFile path="115. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20190901.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7104" author="msavch" failOnError="false">
+	     <comment> Install partition 116. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20191001</comment>
+	     <sqlFile path="116. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20191001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7105" author="msavch" failOnError="false">
+	     <comment> Install partition 117. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20191101</comment>
+	     <sqlFile path="117. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20191101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7106" author="msavch" failOnError="false">
+	     <comment> Install partition 118. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20191201</comment>
+	     <sqlFile path="118. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20191201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7107" author="msavch" failOnError="false">
+	     <comment> Install partition 119. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20200101</comment>
+	     <sqlFile path="119. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20200101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7108" author="msavch" failOnError="false">
+	     <comment> Install partition 120. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20200201</comment>
+	     <sqlFile path="120. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20200201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7109" author="msavch" failOnError="false">
+	     <comment> Install partition 121. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20200301</comment>
+	     <sqlFile path="121. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20200301.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7110" author="msavch" failOnError="false">
+	     <comment> Install partition 122. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20200401</comment>
+	     <sqlFile path="122. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20200401.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7111" author="msavch" failOnError="false">
+	     <comment> Install partition 123. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20200501</comment>
+	     <sqlFile path="123. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20200501.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7112" author="msavch" failOnError="false">
+	     <comment> Install partition 124. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20200601</comment>
+	     <sqlFile path="124. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20200601.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7113" author="msavch" failOnError="false">
+	     <comment> Install partition 125. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20200701</comment>
+	     <sqlFile path="125. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20200701.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7114" author="msavch" failOnError="false">
+	     <comment> Install partition 126. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20200801</comment>
+	     <sqlFile path="126. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20200801.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7115" author="msavch" failOnError="false">
+	     <comment> Install partition 127. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20200901</comment>
+	     <sqlFile path="127. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20200901.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7116" author="msavch" failOnError="false">
+	     <comment> Install partition 128. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20201001</comment>
+	     <sqlFile path="128. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20201001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7117" author="msavch" failOnError="false">
+	     <comment> Install partition 129. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20201101</comment>
+	     <sqlFile path="129. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20201101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7118" author="msavch" failOnError="false">
+	     <comment> Install partition 130. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20201201</comment>
+	     <sqlFile path="130. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20201201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7119" author="msavch" failOnError="false">
+	     <comment> Install partition 131. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20210101</comment>
+	     <sqlFile path="131. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20210101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7120" author="msavch" failOnError="false">
+	     <comment> Install partition 132. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20210201</comment>
+	     <sqlFile path="132. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20210201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7121" author="msavch" failOnError="false">
+	     <comment> Install partition 133. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20210301</comment>
+	     <sqlFile path="133. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20210301.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7122" author="msavch" failOnError="false">
+	     <comment> Install partition 134. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20210401</comment>
+	     <sqlFile path="134. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20210401.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7123" author="msavch" failOnError="false">
+	     <comment> Install partition 135. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20210501</comment>
+	     <sqlFile path="135. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20210501.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7124" author="msavch" failOnError="false">
+	     <comment> Install partition 136. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20210601</comment>
+	     <sqlFile path="136. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20210601.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7125" author="msavch" failOnError="false">
+	     <comment> Install partition 137. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20210701</comment>
+	     <sqlFile path="137. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20210701.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7126" author="msavch" failOnError="false">
+	     <comment> Install partition 138. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20210801</comment>
+	     <sqlFile path="138. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20210801.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7127" author="msavch" failOnError="false">
+	     <comment> Install partition 139. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20210901</comment>
+	     <sqlFile path="139. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20210901.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7128" author="msavch" failOnError="false">
+	     <comment> Install partition 140. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20211001</comment>
+	     <sqlFile path="140. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20211001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7129" author="msavch" failOnError="false">
+	     <comment> Install partition 141. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20211101</comment>
+	     <sqlFile path="141. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20211101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7130" author="msavch" failOnError="false">
+	     <comment> Install partition 142. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20211201</comment>
+	     <sqlFile path="142. ocanalytics.jurisdiction_day.jurisdiction_day_jd_date_20211201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7131" author="msavch" failOnError="false">
+	     <comment> Install partition 143. ocanalytics.test_day.test_day_ud_date_20201201</comment>
+	     <sqlFile path="143. ocanalytics.test_day.test_day_ud_date_20201201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7132" author="msavch" failOnError="false">
+	     <comment> Install partition 144. ocanalytics.test_day.test_day_ud_date_20210101</comment>
+	     <sqlFile path="144. ocanalytics.test_day.test_day_ud_date_20210101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7133" author="msavch" failOnError="false">
+	     <comment> Install partition 145. ocanalytics.test_day.test_day_ud_date_20210201</comment>
+	     <sqlFile path="145. ocanalytics.test_day.test_day_ud_date_20210201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7134" author="msavch" failOnError="false">
+	     <comment> Install partition 146. ocanalytics.test_day.test_day_ud_date_20210301</comment>
+	     <sqlFile path="146. ocanalytics.test_day.test_day_ud_date_20210301.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7135" author="msavch" failOnError="false">
+	     <comment> Install partition 147. ocanalytics.test_day.test_day_ud_date_20210401</comment>
+	     <sqlFile path="147. ocanalytics.test_day.test_day_ud_date_20210401.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7136" author="msavch" failOnError="false">
+	     <comment> Install partition 148. ocanalytics.test_day.test_day_ud_date_20210501</comment>
+	     <sqlFile path="148. ocanalytics.test_day.test_day_ud_date_20210501.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7137" author="msavch" failOnError="false">
+	     <comment> Install partition 149. ocanalytics.test_day.test_day_ud_date_20210601</comment>
+	     <sqlFile path="149. ocanalytics.test_day.test_day_ud_date_20210601.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7138" author="msavch" failOnError="false">
+	     <comment> Install partition 150. ocanalytics.test_day.test_day_ud_date_20210701</comment>
+	     <sqlFile path="150. ocanalytics.test_day.test_day_ud_date_20210701.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7139" author="msavch" failOnError="false">
+	     <comment> Install partition 151. ocanalytics.test_day.test_day_ud_date_20210801</comment>
+	     <sqlFile path="151. ocanalytics.test_day.test_day_ud_date_20210801.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7140" author="msavch" failOnError="false">
+	     <comment> Install partition 152. ocanalytics.test_day.test_day_ud_date_20210901</comment>
+	     <sqlFile path="152. ocanalytics.test_day.test_day_ud_date_20210901.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7141" author="msavch" failOnError="false">
+	     <comment> Install partition 153. ocanalytics.test_day.test_day_ud_date_20211001</comment>
+	     <sqlFile path="153. ocanalytics.test_day.test_day_ud_date_20211001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7142" author="msavch" failOnError="false">
+	     <comment> Install partition 154. ocanalytics.test_day.test_day_ud_date_20211101</comment>
+	     <sqlFile path="154. ocanalytics.test_day.test_day_ud_date_20211101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7143" author="msavch" failOnError="false">
+	     <comment> Install partition 155. ocanalytics.test_day.test_day_ud_date_20211201</comment>
+	     <sqlFile path="155. ocanalytics.test_day.test_day_ud_date_20211201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7144" author="msavch" failOnError="false">
+	     <comment> Install partition 156. ocanalytics.usage_day.usage_day_ud_date_20190701</comment>
+	     <sqlFile path="156. ocanalytics.usage_day.usage_day_ud_date_20190701.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7145" author="msavch" failOnError="false">
+	     <comment> Install partition 157. ocanalytics.usage_day.usage_day_ud_date_20190801</comment>
+	     <sqlFile path="157. ocanalytics.usage_day.usage_day_ud_date_20190801.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7146" author="msavch" failOnError="false">
+	     <comment> Install partition 158. ocanalytics.usage_day.usage_day_ud_date_20190901</comment>
+	     <sqlFile path="158. ocanalytics.usage_day.usage_day_ud_date_20190901.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7147" author="msavch" failOnError="false">
+	     <comment> Install partition 159. ocanalytics.usage_day.usage_day_ud_date_20191001</comment>
+	     <sqlFile path="159. ocanalytics.usage_day.usage_day_ud_date_20191001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7148" author="msavch" failOnError="false">
+	     <comment> Install partition 160. ocanalytics.usage_day.usage_day_ud_date_20191101</comment>
+	     <sqlFile path="160. ocanalytics.usage_day.usage_day_ud_date_20191101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7149" author="msavch" failOnError="false">
+	     <comment> Install partition 161. ocanalytics.usage_day.usage_day_ud_date_20191201</comment>
+	     <sqlFile path="161. ocanalytics.usage_day.usage_day_ud_date_20191201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7150" author="msavch" failOnError="false">
+	     <comment> Install partition 162. ocanalytics.usage_day.usage_day_ud_date_20200101</comment>
+	     <sqlFile path="162. ocanalytics.usage_day.usage_day_ud_date_20200101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7151" author="msavch" failOnError="false">
+	     <comment> Install partition 163. ocanalytics.usage_day.usage_day_ud_date_20200201</comment>
+	     <sqlFile path="163. ocanalytics.usage_day.usage_day_ud_date_20200201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7152" author="msavch" failOnError="false">
+	     <comment> Install partition 164. ocanalytics.usage_day.usage_day_ud_date_20200301</comment>
+	     <sqlFile path="164. ocanalytics.usage_day.usage_day_ud_date_20200301.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7153" author="msavch" failOnError="false">
+	     <comment> Install partition 165. ocanalytics.usage_day.usage_day_ud_date_20200401</comment>
+	     <sqlFile path="165. ocanalytics.usage_day.usage_day_ud_date_20200401.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7154" author="msavch" failOnError="false">
+	     <comment> Install partition 166. ocanalytics.usage_day.usage_day_ud_date_20200501</comment>
+	     <sqlFile path="166. ocanalytics.usage_day.usage_day_ud_date_20200501.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7155" author="msavch" failOnError="false">
+	     <comment> Install partition 167. ocanalytics.usage_day.usage_day_ud_date_20200601</comment>
+	     <sqlFile path="167. ocanalytics.usage_day.usage_day_ud_date_20200601.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7156" author="msavch" failOnError="false">
+	     <comment> Install partition 168. ocanalytics.usage_day.usage_day_ud_date_20200701</comment>
+	     <sqlFile path="168. ocanalytics.usage_day.usage_day_ud_date_20200701.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7157" author="msavch" failOnError="false">
+	     <comment> Install partition 169. ocanalytics.usage_day.usage_day_ud_date_20200801</comment>
+	     <sqlFile path="169. ocanalytics.usage_day.usage_day_ud_date_20200801.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7158" author="msavch" failOnError="false">
+	     <comment> Install partition 170. ocanalytics.usage_day.usage_day_ud_date_20200901</comment>
+	     <sqlFile path="170. ocanalytics.usage_day.usage_day_ud_date_20200901.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7159" author="msavch" failOnError="false">
+	     <comment> Install partition 171. ocanalytics.usage_day.usage_day_ud_date_20201001</comment>
+	     <sqlFile path="171. ocanalytics.usage_day.usage_day_ud_date_20201001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7160" author="msavch" failOnError="false">
+	     <comment> Install partition 172. ocanalytics.usage_day.usage_day_ud_date_20201101</comment>
+	     <sqlFile path="172. ocanalytics.usage_day.usage_day_ud_date_20201101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7161" author="msavch" failOnError="false">
+	     <comment> Install partition 173. ocanalytics.usage_day.usage_day_ud_date_20201201</comment>
+	     <sqlFile path="173. ocanalytics.usage_day.usage_day_ud_date_20201201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7162" author="msavch" failOnError="false">
+	     <comment> Install partition 174. ocanalytics.usage_day.usage_day_ud_date_20210101</comment>
+	     <sqlFile path="174. ocanalytics.usage_day.usage_day_ud_date_20210101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7163" author="msavch" failOnError="false">
+	     <comment> Install partition 175. ocanalytics.usage_day.usage_day_ud_date_20210201</comment>
+	     <sqlFile path="175. ocanalytics.usage_day.usage_day_ud_date_20210201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7164" author="msavch" failOnError="false">
+	     <comment> Install partition 176. ocanalytics.usage_day.usage_day_ud_date_20210301</comment>
+	     <sqlFile path="176. ocanalytics.usage_day.usage_day_ud_date_20210301.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7165" author="msavch" failOnError="false">
+	     <comment> Install partition 177. ocanalytics.usage_day.usage_day_ud_date_20210401</comment>
+	     <sqlFile path="177. ocanalytics.usage_day.usage_day_ud_date_20210401.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7166" author="msavch" failOnError="false">
+	     <comment> Install partition 178. ocanalytics.usage_day.usage_day_ud_date_20210501</comment>
+	     <sqlFile path="178. ocanalytics.usage_day.usage_day_ud_date_20210501.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7167" author="msavch" failOnError="false">
+	     <comment> Install partition 179. ocanalytics.usage_day.usage_day_ud_date_20210601</comment>
+	     <sqlFile path="179. ocanalytics.usage_day.usage_day_ud_date_20210601.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7168" author="msavch" failOnError="false">
+	     <comment> Install partition 180. ocanalytics.usage_day.usage_day_ud_date_20210701</comment>
+	     <sqlFile path="180. ocanalytics.usage_day.usage_day_ud_date_20210701.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7169" author="msavch" failOnError="false">
+	     <comment> Install partition 181. ocanalytics.usage_day.usage_day_ud_date_20210801</comment>
+	     <sqlFile path="181. ocanalytics.usage_day.usage_day_ud_date_20210801.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7170" author="msavch" failOnError="false">
+	     <comment> Install partition 182. ocanalytics.usage_day.usage_day_ud_date_20210901</comment>
+	     <sqlFile path="182. ocanalytics.usage_day.usage_day_ud_date_20210901.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7171" author="msavch" failOnError="false">
+	     <comment> Install partition 183. ocanalytics.usage_day.usage_day_ud_date_20211001</comment>
+	     <sqlFile path="183. ocanalytics.usage_day.usage_day_ud_date_20211001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7172" author="msavch" failOnError="false">
+	     <comment> Install partition 184. ocanalytics.usage_day.usage_day_ud_date_20211101</comment>
+	     <sqlFile path="184. ocanalytics.usage_day.usage_day_ud_date_20211101.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7173" author="msavch" failOnError="false">
+	     <comment> Install partition 185. ocanalytics.usage_day.usage_day_ud_date_20211201</comment>
+	     <sqlFile path="185. ocanalytics.usage_day.usage_day_ud_date_20211201.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

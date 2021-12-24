@@ -1,0 +1,47 @@
+pipeline{
+	
+	agent any
+
+	stages {
+
+		stage("all_indexes") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_101_indexes.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       stage("all_fk") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_102_fk.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       stage("all_triggers") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_103_triggers.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       stage("dms_indexes_drop") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_105_dms_indexes_drop.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       
+
+	} 
+
+}

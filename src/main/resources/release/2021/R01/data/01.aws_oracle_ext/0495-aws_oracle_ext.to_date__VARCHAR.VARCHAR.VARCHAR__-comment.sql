@@ -1,0 +1,1 @@
+COMMENT ON FUNCTION aws_oracle_ext.to_date(VARCHAR, VARCHAR, VARCHAR) IS 'Converts VARCHAR2 to DATE as Oracle does. Some Format models could return incorrect results. Only NLS_DATE_LANGUAGE is allowed for NLS param. Value must be correct as lc_time value';

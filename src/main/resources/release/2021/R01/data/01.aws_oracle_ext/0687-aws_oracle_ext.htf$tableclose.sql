@@ -1,0 +1,11 @@
+CREATE OR REPLACE FUNCTION aws_oracle_ext.htf$tableClose() 
+RETURNS TEXT AS
+$BODY$
+
+    SELECT '</table>';
+
+$BODY$
+LANGUAGE SQL
+IMMUTABLE;
+
+

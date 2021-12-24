@@ -1,0 +1,11 @@
+CREATE OR REPLACE FUNCTION aws_oracle_ext.htf$formClose() 
+RETURNS TEXT AS
+$BODY$
+
+    SELECT '</form>';
+
+$BODY$
+LANGUAGE SQL
+IMMUTABLE;
+
+

@@ -1,0 +1,1 @@
+create type aws_oracle_ext.dbms_xmlquery$TctxDictionary as (Var text, Value text);

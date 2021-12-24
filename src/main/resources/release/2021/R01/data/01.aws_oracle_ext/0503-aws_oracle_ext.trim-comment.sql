@@ -1,0 +1,1 @@
+COMMENT ON FUNCTION aws_oracle_ext.trim (ANYARRAY, NUMERIC) IS 'Implements Oracle Collection method TRIM';

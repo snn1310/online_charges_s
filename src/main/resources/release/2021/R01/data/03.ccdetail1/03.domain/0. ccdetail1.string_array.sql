@@ -1,0 +1,2 @@
+CREATE DOMAIN ccdetail1.string_array AS CHARACTER VARYING(4000) [];
+

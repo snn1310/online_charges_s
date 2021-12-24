@@ -1,0 +1,11 @@
+CREATE OR REPLACE FUNCTION aws_oracle_ext.htf$dirlistClose() 
+RETURNS TEXT AS
+$BODY$
+
+    SELECT '</dir>';
+
+$BODY$
+LANGUAGE SQL
+IMMUTABLE;
+
+

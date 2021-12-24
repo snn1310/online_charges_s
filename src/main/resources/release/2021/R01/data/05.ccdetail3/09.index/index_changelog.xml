@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#5457" author="msavch" failOnError="false">
+	     <comment> Install index 0. ccdetail3.billing_detail.billing_detail_idx1</comment>
+	     <sqlFile path="0. ccdetail3.billing_detail.billing_detail_idx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5458" author="msavch" failOnError="false">
+	     <comment> Install index 1. ccdetail3.billing_detail.billing_detail_idx2</comment>
+	     <sqlFile path="1. ccdetail3.billing_detail.billing_detail_idx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5459" author="msavch" failOnError="false">
+	     <comment> Install index 2. ccdetail3.billing_detail.billing_detail_idx3</comment>
+	     <sqlFile path="2. ccdetail3.billing_detail.billing_detail_idx3.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5460" author="msavch" failOnError="false">
+	     <comment> Install index 3. ccdetail3.billing_detail.billing_detail_idx4</comment>
+	     <sqlFile path="3. ccdetail3.billing_detail.billing_detail_idx4.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5461" author="msavch" failOnError="false">
+	     <comment> Install index 4. ccdetail3.billing_detail.billing_detail_idx5</comment>
+	     <sqlFile path="4. ccdetail3.billing_detail.billing_detail_idx5.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5462" author="msavch" failOnError="false">
+	     <comment> Install index 5. ccdetail3.content.content_idx1</comment>
+	     <sqlFile path="5. ccdetail3.content.content_idx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5463" author="msavch" failOnError="false">
+	     <comment> Install index 6. ccdetail3.content.content_idx2</comment>
+	     <sqlFile path="6. ccdetail3.content.content_idx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5464" author="msavch" failOnError="false">
+	     <comment> Install index 7. ccdetail3.content.content_idx3</comment>
+	     <sqlFile path="7. ccdetail3.content.content_idx3.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5465" author="msavch" failOnError="false">
+	     <comment> Install index 8. ccdetail3.customer_detail.customer_detail_idx5</comment>
+	     <sqlFile path="8. ccdetail3.customer_detail.customer_detail_idx5.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5466" author="msavch" failOnError="false">
+	     <comment> Install index 9. ccdetail3.customer_detail.customer_detail_ndx1</comment>
+	     <sqlFile path="9. ccdetail3.customer_detail.customer_detail_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5467" author="msavch" failOnError="false">
+	     <comment> Install index 10. ccdetail3.customer_detail.customer_detail_ndx2</comment>
+	     <sqlFile path="10. ccdetail3.customer_detail.customer_detail_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5468" author="msavch" failOnError="false">
+	     <comment> Install index 11. ccdetail3.customer_detail.customer_detail_ndx3</comment>
+	     <sqlFile path="11. ccdetail3.customer_detail.customer_detail_ndx3.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5469" author="msavch" failOnError="false">
+	     <comment> Install index 12. ccdetail3.customer_detail.customer_detail_ndx4</comment>
+	     <sqlFile path="12. ccdetail3.customer_detail.customer_detail_ndx4.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5470" author="msavch" failOnError="false">
+	     <comment> Install index 13. ccdetail3.discount_detail.discount_detail_ndx1</comment>
+	     <sqlFile path="13. ccdetail3.discount_detail.discount_detail_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5471" author="msavch" failOnError="false">
+	     <comment> Install index 14. ccdetail3.discount_detail.discount_detail_ndx2</comment>
+	     <sqlFile path="14. ccdetail3.discount_detail.discount_detail_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5472" author="msavch" failOnError="false">
+	     <comment> Install index 15. ccdetail3.error_log.error_log_ndx1</comment>
+	     <sqlFile path="15. ccdetail3.error_log.error_log_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5473" author="msavch" failOnError="false">
+	     <comment> Install index 16. ccdetail3.error_log.error_log_ndx2</comment>
+	     <sqlFile path="16. ccdetail3.error_log.error_log_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5474" author="msavch" failOnError="false">
+	     <comment> Install index 17. ccdetail3.event_history.event_history_ndx1</comment>
+	     <sqlFile path="17. ccdetail3.event_history.event_history_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5475" author="msavch" failOnError="false">
+	     <comment> Install index 18. ccdetail3.event_history.event_history_ndx2</comment>
+	     <sqlFile path="18. ccdetail3.event_history.event_history_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5476" author="msavch" failOnError="false">
+	     <comment> Install index 19. ccdetail3.event_history.event_history_ndx3</comment>
+	     <sqlFile path="19. ccdetail3.event_history.event_history_ndx3.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5477" author="msavch" failOnError="false">
+	     <comment> Install index 20. ccdetail3.event_history.event_history_ndx5</comment>
+	     <sqlFile path="20. ccdetail3.event_history.event_history_ndx5.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5478" author="msavch" failOnError="false">
+	     <comment> Install index 21. ccdetail3.gateway_royalty.gateway_royalty_ndx1</comment>
+	     <sqlFile path="21. ccdetail3.gateway_royalty.gateway_royalty_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5479" author="msavch" failOnError="false">
+	     <comment> Install index 22. ccdetail3.gateway_royalty.gateway_royalty_ndx2</comment>
+	     <sqlFile path="22. ccdetail3.gateway_royalty.gateway_royalty_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5480" author="msavch" failOnError="false">
+	     <comment> Install index 23. ccdetail3.jurisdiction.jurisdiction_idx1</comment>
+	     <sqlFile path="23. ccdetail3.jurisdiction.jurisdiction_idx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5481" author="msavch" failOnError="false">
+	     <comment> Install index 24. ccdetail3.roy_tran_usg_detail.roy_tran_usg_detail_idx1</comment>
+	     <sqlFile path="24. ccdetail3.roy_tran_usg_detail.roy_tran_usg_detail_idx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5482" author="msavch" failOnError="false">
+	     <comment> Install index 25. ccdetail3.roy_tran_usg_pricing.roy_tran_usg_pricing_idx1</comment>
+	     <sqlFile path="25. ccdetail3.roy_tran_usg_pricing.roy_tran_usg_pricing_idx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5483" author="msavch" failOnError="false">
+	     <comment> Install index 26. ccdetail3.roy_tran_usg_pricing.roy_tran_usg_pricing_idx2</comment>
+	     <sqlFile path="26. ccdetail3.roy_tran_usg_pricing.roy_tran_usg_pricing_idx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5484" author="msavch" failOnError="false">
+	     <comment> Install index 27. ccdetail3.royalty_tran_usage.royalty_tran_usage_fk1</comment>
+	     <sqlFile path="27. ccdetail3.royalty_tran_usage.royalty_tran_usage_fk1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5485" author="msavch" failOnError="false">
+	     <comment> Install index 28. ccdetail3.segment_detail.segment_detail_ndx1</comment>
+	     <sqlFile path="28. ccdetail3.segment_detail.segment_detail_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5486" author="msavch" failOnError="false">
+	     <comment> Install index 29. ccdetail3.segment_detail.segment_detail_ndx2</comment>
+	     <sqlFile path="29. ccdetail3.segment_detail.segment_detail_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5487" author="msavch" failOnError="false">
+	     <comment> Install index 30. ccdetail3.segment_detail.segment_detail_ndx3</comment>
+	     <sqlFile path="30. ccdetail3.segment_detail.segment_detail_ndx3.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5488" author="msavch" failOnError="false">
+	     <comment> Install index 31. ccdetail3.session_detail.session_detail_ndx1</comment>
+	     <sqlFile path="31. ccdetail3.session_detail.session_detail_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5489" author="msavch" failOnError="false">
+	     <comment> Install index 32. ccdetail3.session_detail.session_detail_ndx2</comment>
+	     <sqlFile path="32. ccdetail3.session_detail.session_detail_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5490" author="msavch" failOnError="false">
+	     <comment> Install index 33. ccdetail3.session_detail.session_detail_ndx3</comment>
+	     <sqlFile path="33. ccdetail3.session_detail.session_detail_ndx3.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5491" author="msavch" failOnError="false">
+	     <comment> Install index 34. ccdetail3.session_detail.session_detail_ndx4</comment>
+	     <sqlFile path="34. ccdetail3.session_detail.session_detail_ndx4.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5492" author="msavch" failOnError="false">
+	     <comment> Install index 35. ccdetail3.time_inplan.time_inplan_ndx1</comment>
+	     <sqlFile path="35. ccdetail3.time_inplan.time_inplan_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5493" author="msavch" failOnError="false">
+	     <comment> Install index 36. ccdetail3.time_royalty.time_royalty_ndx1</comment>
+	     <sqlFile path="36. ccdetail3.time_royalty.time_royalty_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5494" author="msavch" failOnError="false">
+	     <comment> Install index 37. ccdetail3.time_royalty.time_royalty_ndx2</comment>
+	     <sqlFile path="37. ccdetail3.time_royalty.time_royalty_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5495" author="msavch" failOnError="false">
+	     <comment> Install index 38. ccdetail3.time_royalty.time_royalty_ndx3</comment>
+	     <sqlFile path="38. ccdetail3.time_royalty.time_royalty_ndx3.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5496" author="msavch" failOnError="false">
+	     <comment> Install index 39. ccdetail3.tran_inplan.tran_inplan_ndx1</comment>
+	     <sqlFile path="39. ccdetail3.tran_inplan.tran_inplan_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5497" author="msavch" failOnError="false">
+	     <comment> Install index 40. ccdetail3.tran_royalty.tran_royalty_ndx1</comment>
+	     <sqlFile path="40. ccdetail3.tran_royalty.tran_royalty_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5498" author="msavch" failOnError="false">
+	     <comment> Install index 41. ccdetail3.transaction_document.transaction_document_idx1</comment>
+	     <sqlFile path="41. ccdetail3.transaction_document.transaction_document_idx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5499" author="msavch" failOnError="false">
+	     <comment> Install index 42. ccdetail3.transaction_usage.transaction_usage_ndx1</comment>
+	     <sqlFile path="42. ccdetail3.transaction_usage.transaction_usage_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5500" author="msavch" failOnError="false">
+	     <comment> Install index 43. ccdetail3.transaction_usage.transaction_usage_ndx2</comment>
+	     <sqlFile path="43. ccdetail3.transaction_usage.transaction_usage_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5501" author="msavch" failOnError="false">
+	     <comment> Install index 44. ccdetail3.transaction_usage.transaction_usage_ndx3</comment>
+	     <sqlFile path="44. ccdetail3.transaction_usage.transaction_usage_ndx3.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5502" author="msavch" failOnError="false">
+	     <comment> Install index 45. ccdetail3.usg_billing_detail.usg_billing_detail_ndx1</comment>
+	     <sqlFile path="45. ccdetail3.usg_billing_detail.usg_billing_detail_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5503" author="msavch" failOnError="false">
+	     <comment> Install index 46. ccdetail3.warn.warn_ndx1</comment>
+	     <sqlFile path="46. ccdetail3.warn.warn_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5504" author="msavch" failOnError="false">
+	     <comment> Install index 47. ccdetail3.warn.warn_ndx2</comment>
+	     <sqlFile path="47. ccdetail3.warn.warn_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#5505" author="msavch" failOnError="false">
+	     <comment> Install index 48. ccdetail3.warn_promo.warn_promo_ndx1</comment>
+	     <sqlFile path="48. ccdetail3.warn_promo.warn_promo_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

@@ -1,0 +1,1 @@
+COMMENT ON FUNCTION aws_oracle_ext.to_char_parser(VARCHAR, VARCHAR, VARCHAR) IS 'Parse to_char format parameter value to check it against Oracle rules';

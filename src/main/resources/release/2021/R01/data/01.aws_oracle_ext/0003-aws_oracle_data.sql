@@ -1,0 +1,1 @@
+CREATE SCHEMA IF NOT EXISTS aws_oracle_data;

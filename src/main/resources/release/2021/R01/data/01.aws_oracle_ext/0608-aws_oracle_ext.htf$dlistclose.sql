@@ -1,0 +1,11 @@
+CREATE OR REPLACE FUNCTION aws_oracle_ext.htf$dlistClose() 
+RETURNS TEXT AS
+$BODY$
+
+    SELECT '</dl>';
+
+$BODY$
+LANGUAGE SQL
+IMMUTABLE;
+
+

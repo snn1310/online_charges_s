@@ -1,0 +1,181 @@
+pipeline{
+	
+	agent any
+
+	stages {
+
+		stage("create schema aws_oracle_ext") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_01_aws_oracle_ex.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       stage("create schema ccdetail") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_02_ccdetail.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       stage("create schema ccdetail1") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_03_ccdetail1.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       stage("create schema ccdetail2") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_04_ccdetail2.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+		
+       stage("create schema ccdetail3") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_05_ccdetail3.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       stage("create schema ccdetail4") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_06_ccdetail4.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       stage("create schema ocanalytics") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_07_ocanalytics.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+		
+       stage("create schema ocdetail") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_08_ocdetail.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+		
+       stage("create schema ocentitlements") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_09_ocentitlements.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       stage("create schema ocentitlements_dw_user") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_10_ocentitlements_dw_user.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       stage("create schema ocentitlements_sap1") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_11_ocentitlements_sap1.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       stage("create schema ocprice") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_12_ocprice.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       stage("create schema ocquote") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_13_ocquote.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       stage("create schema ocregistration") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_14_ocregistration.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       stage("create schema ocsumm") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_15_ocsumm.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       stage("create schema ocsumm1") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_16_ocsumm1.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       stage("create schema ocsumm2") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_17_ocsumm2.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       stage("create schema tr_customer_contact") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_18_wlregistration.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+
+       stage("create schema dms_indexes_create") {
+
+			steps {
+				sh "bash liquibase/callLiquibase_104_dms_indexes_create.sh"
+				
+				echo 'creating schema and schema objects...'
+			}
+		}		
+       
+
+	} 
+
+}

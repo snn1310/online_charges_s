@@ -1,0 +1,1 @@
+comment on function aws_oracle_ext.DBMS_TYPES(in TYPECODE character varying) is 'Returns type code constant like DBMS_TYPES package';

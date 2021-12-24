@@ -1,0 +1,9 @@
+CREATE OR REPLACE FUNCTION aws_oracle_ext.to_hex(p_dec IN NUMERIC)
+RETURNS TEXT
+AS
+$$
+  SELECT aws_oracle_ext.to_base($1, 16); 
+$$
+LANGUAGE SQL
+IMMUTABLE
+RETURNS NULL ON NULL INPUT;

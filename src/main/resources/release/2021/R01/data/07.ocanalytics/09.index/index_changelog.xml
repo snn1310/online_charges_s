@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#7174" author="msavch" failOnError="false">
+	     <comment> Install index 0. ocanalytics.analytics_correction.ac_idx_1</comment>
+	     <sqlFile path="0. ocanalytics.analytics_correction.ac_idx_1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7175" author="msavch" failOnError="false">
+	     <comment> Install index 1. ocanalytics.analytics_correction.ac_idx_2</comment>
+	     <sqlFile path="1. ocanalytics.analytics_correction.ac_idx_2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7176" author="msavch" failOnError="false">
+	     <comment> Install index 2. ocanalytics.analytics_correction_new.ac_idx_1_new</comment>
+	     <sqlFile path="2. ocanalytics.analytics_correction_new.ac_idx_1_new.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7177" author="msavch" failOnError="false">
+	     <comment> Install index 3. ocanalytics.analytics_correction_new.ac_idx_2_new</comment>
+	     <sqlFile path="3. ocanalytics.analytics_correction_new.ac_idx_2_new.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7178" author="msavch" failOnError="false">
+	     <comment> Install index 4. ocanalytics.analytics_segment.as_idx_1</comment>
+	     <sqlFile path="4. ocanalytics.analytics_segment.as_idx_1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7179" author="msavch" failOnError="false">
+	     <comment> Install index 5. ocanalytics.analytics_segment_corr.asc_idx_1</comment>
+	     <sqlFile path="5. ocanalytics.analytics_segment_corr.asc_idx_1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7180" author="msavch" failOnError="false">
+	     <comment> Install index 6. ocanalytics.analytics_segment_corr.ix_asc_capped_usage_date</comment>
+	     <sqlFile path="6. ocanalytics.analytics_segment_corr.ix_asc_capped_usage_date.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7181" author="msavch" failOnError="false">
+	     <comment> Install index 7. ocanalytics.analytics_segment_corr.xpkanalytics_segment_corr</comment>
+	     <sqlFile path="7. ocanalytics.analytics_segment_corr.xpkanalytics_segment_corr.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7182" author="msavch" failOnError="false">
+	     <comment> Install index 8. ocanalytics.analytics_transaction.at_idx_1</comment>
+	     <sqlFile path="8. ocanalytics.analytics_transaction.at_idx_1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7183" author="msavch" failOnError="false">
+	     <comment> Install index 9. ocanalytics.analytics_transaction.at_idx_acci_aud</comment>
+	     <sqlFile path="9. ocanalytics.analytics_transaction.at_idx_acci_aud.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7184" author="msavch" failOnError="false">
+	     <comment> Install index 10. ocanalytics.analytics_transaction_corr.atc_idx_1</comment>
+	     <sqlFile path="10. ocanalytics.analytics_transaction_corr.atc_idx_1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7185" author="msavch" failOnError="false">
+	     <comment> Install index 11. ocanalytics.analytics_transaction_corr.ixc_at_capped_usage_date</comment>
+	     <sqlFile path="11. ocanalytics.analytics_transaction_corr.ixc_at_capped_usage_date.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7186" author="msavch" failOnError="false">
+	     <comment> Install index 12. ocanalytics.analytics_transaction_corr.xpkanalytics_transaction_corr</comment>
+	     <sqlFile path="12. ocanalytics.analytics_transaction_corr.xpkanalytics_transaction_corr.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7187" author="msavch" failOnError="false">
+	     <comment> Install index 13. ocanalytics.content_day.xif1content_day</comment>
+	     <sqlFile path="13. ocanalytics.content_day.xif1content_day.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7188" author="msavch" failOnError="false">
+	     <comment> Install index 14. ocanalytics.content_day.xpkcontent_day</comment>
+	     <sqlFile path="14. ocanalytics.content_day.xpkcontent_day.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7189" author="msavch" failOnError="false">
+	     <comment> Install index 15. ocanalytics.jurisdiction_day.xfk1jurisdiction_day</comment>
+	     <sqlFile path="15. ocanalytics.jurisdiction_day.xfk1jurisdiction_day.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7190" author="msavch" failOnError="false">
+	     <comment> Install index 16. ocanalytics.jurisdiction_day.xpkjurisdiction_day</comment>
+	     <sqlFile path="16. ocanalytics.jurisdiction_day.xpkjurisdiction_day.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7191" author="msavch" failOnError="false">
+	     <comment> Install index 17. ocanalytics.usage_day.xfk1usage_day</comment>
+	     <sqlFile path="17. ocanalytics.usage_day.xfk1usage_day.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7192" author="msavch" failOnError="false">
+	     <comment> Install index 18. ocanalytics.usage_day.xif3usage_day</comment>
+	     <sqlFile path="18. ocanalytics.usage_day.xif3usage_day.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7193" author="msavch" failOnError="false">
+	     <comment> Install index 19. ocanalytics.usage_day.xif4usage_day</comment>
+	     <sqlFile path="19. ocanalytics.usage_day.xif4usage_day.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7194" author="msavch" failOnError="false">
+	     <comment> Install index 20. ocanalytics.usage_day.xif5usage_day</comment>
+	     <sqlFile path="20. ocanalytics.usage_day.xif5usage_day.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#7195" author="msavch" failOnError="false">
+	     <comment> Install index 21. ocanalytics.usage_day.xpkusage_day</comment>
+	     <sqlFile path="21. ocanalytics.usage_day.xpkusage_day.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

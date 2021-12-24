@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#1167" author="msavch" failOnError="false">
+	     <comment> Install table 0. ccdetail.analytics_totals</comment>
+	     <sqlFile path="0. ccdetail.analytics_totals.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#1168" author="msavch" failOnError="false">
+	     <comment> Install table 1. ccdetail.availability</comment>
+	     <sqlFile path="1. ccdetail.availability.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#1169" author="msavch" failOnError="false">
+	     <comment> Install table 2. ccdetail.balance_totals</comment>
+	     <sqlFile path="2. ccdetail.balance_totals.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#1170" author="msavch" failOnError="false">
+	     <comment> Install table 3. ccdetail.billable_cap_accumulation</comment>
+	     <sqlFile path="3. ccdetail.billable_cap_accumulation.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#1171" author="msavch" failOnError="false">
+	     <comment> Install table 4. ccdetail.billing_detail_correction</comment>
+	     <sqlFile path="4. ccdetail.billing_detail_correction.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#1172" author="msavch" failOnError="false">
+	     <comment> Install table 5. ccdetail.control_table</comment>
+	     <sqlFile path="5. ccdetail.control_table.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#1173" author="msavch" failOnError="false">
+	     <comment> Install table 6. ccdetail.detail_correction</comment>
+	     <sqlFile path="6. ccdetail.detail_correction.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#1174" author="msavch" failOnError="false">
+	     <comment> Install table 7. ccdetail.limit_accumulation</comment>
+	     <sqlFile path="7. ccdetail.limit_accumulation.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#1175" author="msavch" failOnError="false">
+	     <comment> Install table 8. ccdetail.router_control</comment>
+	     <sqlFile path="8. ccdetail.router_control.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#1176" author="msavch" failOnError="false">
+	     <comment> Install table 9. ccdetail.schema_version</comment>
+	     <sqlFile path="9. ccdetail.schema_version.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#1177" author="msavch" failOnError="false">
+	     <comment> Install table 10. ccdetail.segment_detail_correction</comment>
+	     <sqlFile path="10. ccdetail.segment_detail_correction.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#1178" author="msavch" failOnError="false">
+	     <comment> Install table 11. ccdetail.valid_value_det</comment>
+	     <sqlFile path="11. ccdetail.valid_value_det.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

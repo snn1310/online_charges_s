@@ -1,0 +1,1 @@
+CREATE SCHEMA aws_lambda;

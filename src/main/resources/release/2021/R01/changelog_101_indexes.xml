@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+	
+    <include relativeToChangelogFile="true" file="data\02.ccdetail\09.index\index_changelog.xml"/>
+    <include relativeToChangelogFile="true" file="data\03.ccdetail1\09.index\index_changelog.xml"/>
+    <include relativeToChangelogFile="true" file="data\04.ccdetail2\09.index\index_changelog.xml"/>
+    <include relativeToChangelogFile="true" file="data\05.ccdetail3\09.index\index_changelog.xml"/>
+    <include relativeToChangelogFile="true" file="data\06.ccdetail4\09.index\index_changelog.xml"/>
+    <include relativeToChangelogFile="true" file="data\07.ocanalytics\09.index\index_changelog.xml"/>
+    <include relativeToChangelogFile="true" file="data\08.ocdetail\09.index\index_changelog.xml"/>
+    <include relativeToChangelogFile="true" file="data\09.ocentitlements\09.index\index_changelog.xml"/>
+    <include relativeToChangelogFile="true" file="data\11.ocentitlements_sap1\09.index\index_changelog.xml"/>
+    <include relativeToChangelogFile="true" file="data\12.ocprice\09.index\index_changelog.xml"/>
+    <include relativeToChangelogFile="true" file="data\13.ocquote\09.index\index_changelog.xml"/>
+    <include relativeToChangelogFile="true" file="data\14.ocregistration\09.index\index_changelog.xml"/>
+    <include relativeToChangelogFile="true" file="data\15.ocsumm\09.index\index_changelog.xml"/>
+    <include relativeToChangelogFile="true" file="data\16.ocsumm1\09.index\index_changelog.xml"/>
+    <include relativeToChangelogFile="true" file="data\17.ocsumm2\09.index\index_changelog.xml"/>
+    <include relativeToChangelogFile="true" file="data\18.wlregistration\09.index\index_changelog.xml"/>
+
+</databaseChangeLog>
+
+

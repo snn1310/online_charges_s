@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	
+	<include relativeToChangelogFile="true" file="data\17.ocsumm2\01.schema\schema_changelog.xml"/>
+	<include relativeToChangelogFile="true" file="data\17.ocsumm2\04.table\table_changelog.xml"/>
+	<include relativeToChangelogFile="true" file="data\17.ocsumm2\05.partition\partition_changelog.xml"/>
+	<include relativeToChangelogFile="true" file="data\15.ocsumm\06.view\view_changelog.xml"/>
+	<include relativeToChangelogFile="true" file="data\17.ocsumm2\07.constraint\constraint_changelog.xml"/>	
+	
+</databaseChangeLog>

@@ -1,0 +1,8 @@
+CREATE OR REPLACE FUNCTION aws_oracle_ext.sys_anydata$converturowid(value TEXT) RETURNS jsonb
+IMMUTABLE
+PARALLEL SAFE
+AS
+$BODY$
+    SELECT JSONB_BUILD_OBJECT('SYS.UROWID', $1); 
+$BODY$
+LANGUAGE sql;

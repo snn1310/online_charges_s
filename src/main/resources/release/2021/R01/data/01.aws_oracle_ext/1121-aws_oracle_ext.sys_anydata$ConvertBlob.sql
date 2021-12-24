@@ -1,0 +1,9 @@
+CREATE OR REPLACE FUNCTION aws_oracle_ext.sys_anydata$convertblob(value BYTEA)
+ RETURNS jsonb
+IMMUTABLE
+PARALLEL SAFE
+AS
+$BODY$
+    SELECT JSONB_BUILD_OBJECT('SYS.BLOB', $1);    
+$BODY$
+LANGUAGE sql;

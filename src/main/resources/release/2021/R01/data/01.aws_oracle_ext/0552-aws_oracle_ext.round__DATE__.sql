@@ -1,0 +1,10 @@
+--DROP FUNCTION aws_oracle_ext.round(date);
+CREATE OR REPLACE FUNCTION aws_oracle_ext.round(DATE)
+RETURNS DATE
+AS
+$$ 
+SELECT $1;
+$$
+LANGUAGE SQL 
+IMMUTABLE 
+STRICT;

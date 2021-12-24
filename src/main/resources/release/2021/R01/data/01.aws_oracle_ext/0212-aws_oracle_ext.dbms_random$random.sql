@@ -1,0 +1,12 @@
+CREATE OR REPLACE FUNCTION aws_oracle_ext.dbms_random$random()
+RETURNS INTEGER
+AS
+$BODY$
+BEGIN
+    RETURN round((random() * 4294967296 - 2147483648)::NUMERIC, 0);
+END;
+$BODY$
+LANGUAGE plpgsql
+VOLATILE;
+
+

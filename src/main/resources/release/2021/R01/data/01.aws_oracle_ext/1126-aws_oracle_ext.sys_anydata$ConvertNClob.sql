@@ -1,0 +1,9 @@
+CREATE OR REPLACE FUNCTION aws_oracle_ext.sys_anydata$convertnclob(value TEXT) 
+ RETURNS jsonb
+IMMUTABLE
+PARALLEL SAFE
+AS
+$BODY$
+    SELECT JSONB_BUILD_OBJECT('SYS.NCLOB', $1);  
+$BODY$
+LANGUAGE sql;

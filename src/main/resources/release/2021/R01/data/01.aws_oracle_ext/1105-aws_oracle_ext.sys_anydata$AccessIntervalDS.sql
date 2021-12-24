@@ -1,0 +1,17 @@
+CREATE OR REPLACE FUNCTION aws_oracle_ext.sys_anydata$accessintervalds(jsonb_value jsonb)
+ RETURNS INTERVAL DAY TO SECOND
+IMMUTABLE
+STRICT
+PARALLEL SAFE
+AS
+$BODY$
+SELECT
+  CASE WHEN (aws_oracle_ext.sys_anydata$gettypename($1) = 'SYS.INTERVAL_DAY_SECOND')
+   AND ($1 ->> 'SYS.INTERVAL_DAY_SECOND' <> '') 
+  THEN
+	 ($1->> 'SYS.INTERVAL_DAY_SECOND')::INTERVAL DAY TO SECOND
+  ELSE
+     NULL
+  END;
+$BODY$
+LANGUAGE sql;
