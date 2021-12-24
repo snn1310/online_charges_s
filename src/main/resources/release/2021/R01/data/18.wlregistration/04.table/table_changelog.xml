@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#10805" author="msavch" failOnError="false">
+	     <comment> Install table 0. wlregistration.customer_contact</comment>
+	     <sqlFile path="0. wlregistration.customer_contact.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10806" author="msavch" failOnError="false">
+	     <comment> Install table 1. wlregistration.password</comment>
+	     <sqlFile path="1. wlregistration.password.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10807" author="msavch" failOnError="false">
+	     <comment> Install table 2. wlregistration.password_map</comment>
+	     <sqlFile path="2. wlregistration.password_map.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10808" author="msavch" failOnError="false">
+	     <comment> Install table 3. wlregistration.password_type</comment>
+	     <sqlFile path="3. wlregistration.password_type.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10809" author="msavch" failOnError="false">
+	     <comment> Install table 4. wlregistration.promotion_profile</comment>
+	     <sqlFile path="4. wlregistration.promotion_profile.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10810" author="msavch" failOnError="false">
+	     <comment> Install table 5. wlregistration.reg_count</comment>
+	     <sqlFile path="5. wlregistration.reg_count.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10811" author="msavch" failOnError="false">
+	     <comment> Install table 6. wlregistration.reg_count_notify</comment>
+	     <sqlFile path="6. wlregistration.reg_count_notify.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10812" author="msavch" failOnError="false">
+	     <comment> Install table 7. wlregistration.reg_daily_count</comment>
+	     <sqlFile path="7. wlregistration.reg_daily_count.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10813" author="msavch" failOnError="false">
+	     <comment> Install table 8. wlregistration.reg_event_history</comment>
+	     <sqlFile path="8. wlregistration.reg_event_history.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10814" author="msavch" failOnError="false">
+	     <comment> Install table 9. wlregistration.threshold</comment>
+	     <sqlFile path="9. wlregistration.threshold.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10815" author="msavch" failOnError="false">
+	     <comment> Install table 10. wlregistration.threshold_notify</comment>
+	     <sqlFile path="10. wlregistration.threshold_notify.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#10766" author="msavch" failOnError="false">
+	     <comment> Install index 0. ocsumm2.customer.xie1customer</comment>
+	     <sqlFile path="0. ocsumm2.customer.xie1customer.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10767" author="msavch" failOnError="false">
+	     <comment> Install index 1. ocsumm2.customer.xie2customer</comment>
+	     <sqlFile path="1. ocsumm2.customer.xie2customer.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10768" author="msavch" failOnError="false">
+	     <comment> Install index 2. ocsumm2.customer.xie3customer</comment>
+	     <sqlFile path="2. ocsumm2.customer.xie3customer.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10769" author="msavch" failOnError="false">
+	     <comment> Install index 3. ocsumm2.customer.xie4customer</comment>
+	     <sqlFile path="3. ocsumm2.customer.xie4customer.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10770" author="msavch" failOnError="false">
+	     <comment> Install index 4. ocsumm2.customer_document_map.customer_document_map_idx1</comment>
+	     <sqlFile path="4. ocsumm2.customer_document_map.customer_document_map_idx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10771" author="msavch" failOnError="false">
+	     <comment> Install index 5. ocsumm2.discount.xie2discount</comment>
+	     <sqlFile path="5. ocsumm2.discount.xie2discount.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10772" author="msavch" failOnError="false">
+	     <comment> Install index 6. ocsumm2.discount.xif7discount</comment>
+	     <sqlFile path="6. ocsumm2.discount.xif7discount.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10773" author="msavch" failOnError="false">
+	     <comment> Install index 7. ocsumm2.discount_trans_usg.dtu_idx_1</comment>
+	     <sqlFile path="7. ocsumm2.discount_trans_usg.dtu_idx_1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10774" author="msavch" failOnError="false">
+	     <comment> Install index 8. ocsumm2.from_inplan.xif9from_inplan</comment>
+	     <sqlFile path="8. ocsumm2.from_inplan.xif9from_inplan.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10775" author="msavch" failOnError="false">
+	     <comment> Install index 9. ocsumm2.gateway.xif2gateway</comment>
+	     <sqlFile path="9. ocsumm2.gateway.xif2gateway.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10776" author="msavch" failOnError="false">
+	     <comment> Install index 10. ocsumm2.inplan.inplan_idx1</comment>
+	     <sqlFile path="10. ocsumm2.inplan.inplan_idx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10777" author="msavch" failOnError="false">
+	     <comment> Install index 11. ocsumm2.inplan.xif10inplan</comment>
+	     <sqlFile path="11. ocsumm2.inplan.xif10inplan.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10778" author="msavch" failOnError="false">
+	     <comment> Install index 12. ocsumm2.royalty.xie2royalty</comment>
+	     <sqlFile path="12. ocsumm2.royalty.xie2royalty.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10779" author="msavch" failOnError="false">
+	     <comment> Install index 13. ocsumm2.royalty.xif8royalty</comment>
+	     <sqlFile path="13. ocsumm2.royalty.xif8royalty.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10780" author="msavch" failOnError="false">
+	     <comment> Install index 14. ocsumm2.royalty_usage.royalty_usage_fk1</comment>
+	     <sqlFile path="14. ocsumm2.royalty_usage.royalty_usage_fk1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10781" author="msavch" failOnError="false">
+	     <comment> Install index 15. ocsumm2.royalty_usage.royalty_usage_idx2</comment>
+	     <sqlFile path="15. ocsumm2.royalty_usage.royalty_usage_idx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10782" author="msavch" failOnError="false">
+	     <comment> Install index 16. ocsumm2.royalty_usage.royalty_usage_idx3</comment>
+	     <sqlFile path="16. ocsumm2.royalty_usage.royalty_usage_idx3.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10783" author="msavch" failOnError="false">
+	     <comment> Install index 17. ocsumm2.royalty_usage.royalty_usage_idx4</comment>
+	     <sqlFile path="17. ocsumm2.royalty_usage.royalty_usage_idx4.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10784" author="msavch" failOnError="false">
+	     <comment> Install index 18. ocsumm2.session_detail.xif6session_detail</comment>
+	     <sqlFile path="18. ocsumm2.session_detail.xif6session_detail.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10785" author="msavch" failOnError="false">
+	     <comment> Install index 19. ocsumm2.usage.usage_ndx1</comment>
+	     <sqlFile path="19. ocsumm2.usage.usage_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10786" author="msavch" failOnError="false">
+	     <comment> Install index 20. ocsumm2.usage.usage_ndx2</comment>
+	     <sqlFile path="20. ocsumm2.usage.usage_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10787" author="msavch" failOnError="false">
+	     <comment> Install index 21. ocsumm2.usage.xie1usage</comment>
+	     <sqlFile path="21. ocsumm2.usage.xie1usage.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10788" author="msavch" failOnError="false">
+	     <comment> Install index 22. ocsumm2.usage.xie2usage</comment>
+	     <sqlFile path="22. ocsumm2.usage.xie2usage.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10789" author="msavch" failOnError="false">
+	     <comment> Install index 23. ocsumm2.usage.xie5usage</comment>
+	     <sqlFile path="23. ocsumm2.usage.xie5usage.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10790" author="msavch" failOnError="false">
+	     <comment> Install index 24. ocsumm2.usage.xif1usage</comment>
+	     <sqlFile path="24. ocsumm2.usage.xif1usage.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

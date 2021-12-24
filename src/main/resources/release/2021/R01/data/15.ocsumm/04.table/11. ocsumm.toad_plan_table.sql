@@ -1,0 +1,42 @@
+CREATE TABLE ocsumm.toad_plan_table(
+    statement_id CHARACTER VARYING(30),
+    plan_id DOUBLE PRECISION,
+    timestamp TIMESTAMP(0) WITHOUT TIME ZONE,
+    remarks CHARACTER VARYING(4000),
+    operation CHARACTER VARYING(30),
+    options CHARACTER VARYING(255),
+    object_node CHARACTER VARYING(128),
+    object_owner CHARACTER VARYING(30),
+    object_name CHARACTER VARYING(30),
+    object_alias CHARACTER VARYING(65),
+    object_instance DOUBLE PRECISION,
+    object_type CHARACTER VARYING(30),
+    optimizer CHARACTER VARYING(255),
+    search_columns DOUBLE PRECISION,
+    id DOUBLE PRECISION,
+    parent_id DOUBLE PRECISION,
+    depth DOUBLE PRECISION,
+    position DOUBLE PRECISION,
+    cost DOUBLE PRECISION,
+    cardinality DOUBLE PRECISION,
+    bytes DOUBLE PRECISION,
+    other_tag CHARACTER VARYING(255),
+    partition_start CHARACTER VARYING(255),
+    partition_stop CHARACTER VARYING(255),
+    partition_id DOUBLE PRECISION,
+    other TEXT,
+    distribution CHARACTER VARYING(30),
+    cpu_cost DOUBLE PRECISION,
+    io_cost DOUBLE PRECISION,
+    temp_space DOUBLE PRECISION,
+    access_predicates CHARACTER VARYING(4000),
+    filter_predicates CHARACTER VARYING(4000),
+    projection CHARACTER VARYING(4000),
+    time DOUBLE PRECISION,
+    qblock_name CHARACTER VARYING(30),
+    other_xml TEXT
+)
+        WITH (
+        OIDS=FALSE
+        );
+

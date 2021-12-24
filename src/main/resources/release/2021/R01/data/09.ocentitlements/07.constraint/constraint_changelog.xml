@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#8680" author="msavch" failOnError="false">
+	     <comment> Install constraint 0. ocentitlements.audit_log.xpkaudit_log</comment>
+	     <sqlFile path="0. ocentitlements.audit_log.xpkaudit_log.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8681" author="msavch" failOnError="false">
+	     <comment> Install constraint 1. ocentitlements.cross_domain_map.xpkcross_domain_map</comment>
+	     <sqlFile path="1. ocentitlements.cross_domain_map.xpkcross_domain_map.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8682" author="msavch" failOnError="false">
+	     <comment> Install constraint 2. ocentitlements.ea_account.pk_online_charges_account</comment>
+	     <sqlFile path="2. ocentitlements.ea_account.pk_online_charges_account.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8683" author="msavch" failOnError="false">
+	     <comment> Install constraint 3. ocentitlements.ea_account.uc_online_charges_account_ext</comment>
+	     <sqlFile path="3. ocentitlements.ea_account.uc_online_charges_account_ext.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8684" author="msavch" failOnError="false">
+	     <comment> Install constraint 4. ocentitlements.ea_contact.pk_online_charges_contact</comment>
+	     <sqlFile path="4. ocentitlements.ea_contact.pk_online_charges_contact.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8685" author="msavch" failOnError="false">
+	     <comment> Install constraint 5. ocentitlements.ea_contact.uc_online_charges_contact_ext</comment>
+	     <sqlFile path="5. ocentitlements.ea_contact.uc_online_charges_contact_ext.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8686" author="msavch" failOnError="false">
+	     <comment> Install constraint 6. ocentitlements.ea_entitlement.pk_online_charges_entitlement</comment>
+	     <sqlFile path="6. ocentitlements.ea_entitlement.pk_online_charges_entitlement.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8687" author="msavch" failOnError="false">
+	     <comment> Install constraint 7. ocentitlements.ea_entitlement_group.pk_online_charges_group</comment>
+	     <sqlFile path="7. ocentitlements.ea_entitlement_group.pk_online_charges_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8688" author="msavch" failOnError="false">
+	     <comment> Install constraint 8. ocentitlements.ea_entitlement_group.uc_online_charges_group</comment>
+	     <sqlFile path="8. ocentitlements.ea_entitlement_group.uc_online_charges_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8689" author="msavch" failOnError="false">
+	     <comment> Install constraint 9. ocentitlements.ea_entitlement_group_metadata.pk_online_charges_group_meta</comment>
+	     <sqlFile path="9. ocentitlements.ea_entitlement_group_metadata.pk_online_charges_group_meta.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8690" author="msavch" failOnError="false">
+	     <comment> Install constraint 10. ocentitlements.ea_external_entitlement.pk_online_charges_ext_ent</comment>
+	     <sqlFile path="10. ocentitlements.ea_external_entitlement.pk_online_charges_ext_ent.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8691" author="msavch" failOnError="false">
+	     <comment> Install constraint 11. ocentitlements.entitlement_profile.xpkentitlement_profile</comment>
+	     <sqlFile path="11. ocentitlements.entitlement_profile.xpkentitlement_profile.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8692" author="msavch" failOnError="false">
+	     <comment> Install constraint 12. ocentitlements.profile_instance_data.xpkprofile_instance_data</comment>
+	     <sqlFile path="12. ocentitlements.profile_instance_data.xpkprofile_instance_data.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8693" author="msavch" failOnError="false">
+	     <comment> Install constraint 13. ocentitlements.profile_preference.xpkprofile_preference</comment>
+	     <sqlFile path="13. ocentitlements.profile_preference.xpkprofile_preference.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8694" author="msavch" failOnError="false">
+	     <comment> Install constraint 14. ocentitlements.profile_security_group.xpkprofile_security_group</comment>
+	     <sqlFile path="14. ocentitlements.profile_security_group.xpkprofile_security_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8695" author="msavch" failOnError="false">
+	     <comment> Install constraint 15. ocentitlements.profile_subscription.xpkprofile_subscription</comment>
+	     <sqlFile path="15. ocentitlements.profile_subscription.xpkprofile_subscription.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8696" author="msavch" failOnError="false">
+	     <comment> Install constraint 16. ocentitlements.profile_user_limit.xpkprofile_user_limit</comment>
+	     <sqlFile path="16. ocentitlements.profile_user_limit.xpkprofile_user_limit.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8697" author="msavch" failOnError="false">
+	     <comment> Install constraint 17. ocentitlements.security_group.xpksecurity_group</comment>
+	     <sqlFile path="17. ocentitlements.security_group.xpksecurity_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

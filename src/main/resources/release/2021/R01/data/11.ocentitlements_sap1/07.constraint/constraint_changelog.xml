@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#8725" author="msavch" failOnError="false">
+	     <comment> Install constraint 0. ocentitlements_sap1.audit_log.xpkaudit_log</comment>
+	     <sqlFile path="0. ocentitlements_sap1.audit_log.xpkaudit_log.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8726" author="msavch" failOnError="false">
+	     <comment> Install constraint 1. ocentitlements_sap1.cross_domain_map.xpkcross_domain_map</comment>
+	     <sqlFile path="1. ocentitlements_sap1.cross_domain_map.xpkcross_domain_map.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8727" author="msavch" failOnError="false">
+	     <comment> Install constraint 2. ocentitlements_sap1.entitlement_profile.xpkentitlement_profile</comment>
+	     <sqlFile path="2. ocentitlements_sap1.entitlement_profile.xpkentitlement_profile.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8728" author="msavch" failOnError="false">
+	     <comment> Install constraint 3. ocentitlements_sap1.profile_instance_data.xpkprofile_instance_data</comment>
+	     <sqlFile path="3. ocentitlements_sap1.profile_instance_data.xpkprofile_instance_data.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8729" author="msavch" failOnError="false">
+	     <comment> Install constraint 4. ocentitlements_sap1.profile_preference.xpkprofile_preference</comment>
+	     <sqlFile path="4. ocentitlements_sap1.profile_preference.xpkprofile_preference.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8730" author="msavch" failOnError="false">
+	     <comment> Install constraint 5. ocentitlements_sap1.profile_security_group.xpkprofile_security_group</comment>
+	     <sqlFile path="5. ocentitlements_sap1.profile_security_group.xpkprofile_security_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8731" author="msavch" failOnError="false">
+	     <comment> Install constraint 6. ocentitlements_sap1.profile_subscription.xpkprofile_subscription</comment>
+	     <sqlFile path="6. ocentitlements_sap1.profile_subscription.xpkprofile_subscription.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8732" author="msavch" failOnError="false">
+	     <comment> Install constraint 7. ocentitlements_sap1.profile_user_limit.xpkprofile_user_limit</comment>
+	     <sqlFile path="7. ocentitlements_sap1.profile_user_limit.xpkprofile_user_limit.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8733" author="msavch" failOnError="false">
+	     <comment> Install constraint 8. ocentitlements_sap1.security_group.xpksecurity_group</comment>
+	     <sqlFile path="8. ocentitlements_sap1.security_group.xpksecurity_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

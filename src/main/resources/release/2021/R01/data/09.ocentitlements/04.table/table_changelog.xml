@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#8664" author="msavch" failOnError="false">
+	     <comment> Install table 0. ocentitlements.audit_log</comment>
+	     <sqlFile path="0. ocentitlements.audit_log.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8665" author="msavch" failOnError="false">
+	     <comment> Install table 1. ocentitlements.cross_domain_map</comment>
+	     <sqlFile path="1. ocentitlements.cross_domain_map.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8666" author="msavch" failOnError="false">
+	     <comment> Install table 2. ocentitlements.ea_account</comment>
+	     <sqlFile path="2. ocentitlements.ea_account.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8667" author="msavch" failOnError="false">
+	     <comment> Install table 3. ocentitlements.ea_contact</comment>
+	     <sqlFile path="3. ocentitlements.ea_contact.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8668" author="msavch" failOnError="false">
+	     <comment> Install table 4. ocentitlements.ea_entitlement</comment>
+	     <sqlFile path="4. ocentitlements.ea_entitlement.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8669" author="msavch" failOnError="false">
+	     <comment> Install table 5. ocentitlements.ea_entitlement_group</comment>
+	     <sqlFile path="5. ocentitlements.ea_entitlement_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8670" author="msavch" failOnError="false">
+	     <comment> Install table 6. ocentitlements.ea_entitlement_group_metadata</comment>
+	     <sqlFile path="6. ocentitlements.ea_entitlement_group_metadata.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8671" author="msavch" failOnError="false">
+	     <comment> Install table 7. ocentitlements.ea_external_entitlement</comment>
+	     <sqlFile path="7. ocentitlements.ea_external_entitlement.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8672" author="msavch" failOnError="false">
+	     <comment> Install table 8. ocentitlements.entitlement_profile</comment>
+	     <sqlFile path="8. ocentitlements.entitlement_profile.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8673" author="msavch" failOnError="false">
+	     <comment> Install table 9. ocentitlements.profile_instance_data</comment>
+	     <sqlFile path="9. ocentitlements.profile_instance_data.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8674" author="msavch" failOnError="false">
+	     <comment> Install table 10. ocentitlements.profile_preference</comment>
+	     <sqlFile path="10. ocentitlements.profile_preference.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8675" author="msavch" failOnError="false">
+	     <comment> Install table 11. ocentitlements.profile_security_group</comment>
+	     <sqlFile path="11. ocentitlements.profile_security_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8676" author="msavch" failOnError="false">
+	     <comment> Install table 12. ocentitlements.profile_subscription</comment>
+	     <sqlFile path="12. ocentitlements.profile_subscription.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8677" author="msavch" failOnError="false">
+	     <comment> Install table 13. ocentitlements.profile_user_limit</comment>
+	     <sqlFile path="13. ocentitlements.profile_user_limit.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8678" author="msavch" failOnError="false">
+	     <comment> Install table 14. ocentitlements.security_group</comment>
+	     <sqlFile path="14. ocentitlements.security_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

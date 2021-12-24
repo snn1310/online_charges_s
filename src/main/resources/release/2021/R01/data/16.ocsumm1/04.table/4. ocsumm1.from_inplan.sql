@@ -1,0 +1,16 @@
+CREATE TABLE ocsumm1.from_inplan(
+    fi_id CHARACTER VARYING(33) NOT NULL,
+    r_id CHARACTER VARYING(33) NOT NULL,
+    u_id CHARACTER VARYING(33) NOT NULL,
+    c_id CHARACTER VARYING(33) NOT NULL,
+    fi_domain CHARACTER VARYING(15) NOT NULL,
+    fi_company_id CHARACTER VARYING(4) NOT NULL,
+    fi_date TIMESTAMP(0) WITHOUT TIME ZONE NOT NULL,
+    fi_database_name CHARACTER VARYING(18) NOT NULL,
+    fi_access_method CHARACTER VARYING(3)
+)
+    PARTITION BY RANGE (fi_date)
+        WITH (
+        OIDS=FALSE
+        );
+

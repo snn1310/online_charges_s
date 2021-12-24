@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#10818" author="msavch" failOnError="false">
+	     <comment> Install constraint 0. wlregistration.customer_contact.xpkcustomer_contac</comment>
+	     <sqlFile path="0. wlregistration.customer_contact.xpkcustomer_contac.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10819" author="msavch" failOnError="false">
+	     <comment> Install constraint 1. wlregistration.password.xpkpassword</comment>
+	     <sqlFile path="1. wlregistration.password.xpkpassword.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10820" author="msavch" failOnError="false">
+	     <comment> Install constraint 2. wlregistration.password_map.xpkpassword_map</comment>
+	     <sqlFile path="2. wlregistration.password_map.xpkpassword_map.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10821" author="msavch" failOnError="false">
+	     <comment> Install constraint 3. wlregistration.password_type.xpkpassword_type</comment>
+	     <sqlFile path="3. wlregistration.password_type.xpkpassword_type.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10822" author="msavch" failOnError="false">
+	     <comment> Install constraint 4. wlregistration.promotion_profile.xpkpromotion_profi</comment>
+	     <sqlFile path="4. wlregistration.promotion_profile.xpkpromotion_profi.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10823" author="msavch" failOnError="false">
+	     <comment> Install constraint 5. wlregistration.reg_count.xpkreg_count</comment>
+	     <sqlFile path="5. wlregistration.reg_count.xpkreg_count.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10824" author="msavch" failOnError="false">
+	     <comment> Install constraint 6. wlregistration.reg_count_notify.xpkreg_count_notif</comment>
+	     <sqlFile path="6. wlregistration.reg_count_notify.xpkreg_count_notif.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10825" author="msavch" failOnError="false">
+	     <comment> Install constraint 7. wlregistration.reg_daily_count.xpkreg_daily_count</comment>
+	     <sqlFile path="7. wlregistration.reg_daily_count.xpkreg_daily_count.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10826" author="msavch" failOnError="false">
+	     <comment> Install constraint 8. wlregistration.reg_event_history.xpkreg_event_hist</comment>
+	     <sqlFile path="8. wlregistration.reg_event_history.xpkreg_event_hist.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10827" author="msavch" failOnError="false">
+	     <comment> Install constraint 9. wlregistration.threshold.xpkthreshold</comment>
+	     <sqlFile path="9. wlregistration.threshold.xpkthreshold.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10828" author="msavch" failOnError="false">
+	     <comment> Install constraint 10. wlregistration.threshold_notify.xpkthreshold_notif</comment>
+	     <sqlFile path="10. wlregistration.threshold_notify.xpkthreshold_notif.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

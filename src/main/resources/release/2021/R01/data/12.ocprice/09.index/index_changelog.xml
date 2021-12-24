@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#8806" author="msavch" failOnError="false">
+	     <comment> Install index 0. ocprice.billing_group.billing_group_ndx2</comment>
+	     <sqlFile path="0. ocprice.billing_group.billing_group_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8807" author="msavch" failOnError="false">
+	     <comment> Install index 1. ocprice.billing_group.mdh_spec</comment>
+	     <sqlFile path="1. ocprice.billing_group.mdh_spec.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8808" author="msavch" failOnError="false">
+	     <comment> Install index 2. ocprice.billing_group.xie2billing_group</comment>
+	     <sqlFile path="2. ocprice.billing_group.xie2billing_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8809" author="msavch" failOnError="false">
+	     <comment> Install index 3. ocprice.billing_group.xie2billing_groupmod</comment>
+	     <sqlFile path="3. ocprice.billing_group.xie2billing_groupmod.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8810" author="msavch" failOnError="false">
+	     <comment> Install index 4. ocprice.billing_group.xie3billing_group</comment>
+	     <sqlFile path="4. ocprice.billing_group.xie3billing_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8811" author="msavch" failOnError="false">
+	     <comment> Install index 5. ocprice.config_value.xif1config_value</comment>
+	     <sqlFile path="5. ocprice.config_value.xif1config_value.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8812" author="msavch" failOnError="false">
+	     <comment> Install index 6. ocprice.contact.contact_fnc_email_idx</comment>
+	     <sqlFile path="6. ocprice.contact.contact_fnc_email_idx.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8813" author="msavch" failOnError="false">
+	     <comment> Install index 7. ocprice.contact.contact_fnc_name_idx</comment>
+	     <sqlFile path="7. ocprice.contact.contact_fnc_name_idx.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8814" author="msavch" failOnError="false">
+	     <comment> Install index 8. ocprice.contact.contact_ndx2</comment>
+	     <sqlFile path="8. ocprice.contact.contact_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8815" author="msavch" failOnError="false">
+	     <comment> Install index 9. ocprice.content_detail.idx503130018400000</comment>
+	     <sqlFile path="9. ocprice.content_detail.idx503130018400000.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8816" author="msavch" failOnError="false">
+	     <comment> Install index 10. ocprice.content_detail.xie1content_detail</comment>
+	     <sqlFile path="10. ocprice.content_detail.xie1content_detail.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8817" author="msavch" failOnError="false">
+	     <comment> Install index 11. ocprice.content_detail.xif21content_detail</comment>
+	     <sqlFile path="11. ocprice.content_detail.xif21content_detail.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8818" author="msavch" failOnError="false">
+	     <comment> Install index 12. ocprice.content_exemplar.xif27content_exemplar</comment>
+	     <sqlFile path="12. ocprice.content_exemplar.xif27content_exemplar.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8819" author="msavch" failOnError="false">
+	     <comment> Install index 13. ocprice.database_group._idx$$_03e10001</comment>
+	     <sqlFile path="13. ocprice.database_group._idx$$_03e10001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8820" author="msavch" failOnError="false">
+	     <comment> Install index 14. ocprice.database_group.database_group_idx$$_103250011</comment>
+	     <sqlFile path="14. ocprice.database_group.database_group_idx$$_103250011.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8821" author="msavch" failOnError="false">
+	     <comment> Install index 15. ocprice.database_group.idx050203140019001</comment>
+	     <sqlFile path="15. ocprice.database_group.idx050203140019001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8822" author="msavch" failOnError="false">
+	     <comment> Install index 16. ocprice.database_group.idx050513110351487</comment>
+	     <sqlFile path="16. ocprice.database_group.idx050513110351487.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8823" author="msavch" failOnError="false">
+	     <comment> Install index 17. ocprice.database_name.idx050418154145001</comment>
+	     <sqlFile path="17. ocprice.database_name.idx050418154145001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8824" author="msavch" failOnError="false">
+	     <comment> Install index 18. ocprice.database_name.idx603221943360000</comment>
+	     <sqlFile path="18. ocprice.database_name.idx603221943360000.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8825" author="msavch" failOnError="false">
+	     <comment> Install index 19. ocprice.document_percent.xie1document_perc</comment>
+	     <sqlFile path="19. ocprice.document_percent.xie1document_perc.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8826" author="msavch" failOnError="false">
+	     <comment> Install index 20. ocprice.document_percent.xif4document_percent</comment>
+	     <sqlFile path="20. ocprice.document_percent.xif4document_percent.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8827" author="msavch" failOnError="false">
+	     <comment> Install index 21. ocprice.document_price.xie1document_price</comment>
+	     <sqlFile path="21. ocprice.document_price.xie1document_price.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8828" author="msavch" failOnError="false">
+	     <comment> Install index 22. ocprice.document_price.xif2document_price</comment>
+	     <sqlFile path="22. ocprice.document_price.xif2document_price.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8829" author="msavch" failOnError="false">
+	     <comment> Install index 23. ocprice.group_material_num.idx050204083458243</comment>
+	     <sqlFile path="23. ocprice.group_material_num.idx050204083458243.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8830" author="msavch" failOnError="false">
+	     <comment> Install index 24. ocprice.material_number.xie1material_numbe</comment>
+	     <sqlFile path="24. ocprice.material_number.xie1material_numbe.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8831" author="msavch" failOnError="false">
+	     <comment> Install index 25. ocprice.material_price_grp.xif72material_price_grp</comment>
+	     <sqlFile path="25. ocprice.material_price_grp.xif72material_price_grp.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8832" author="msavch" failOnError="false">
+	     <comment> Install index 26. ocprice.material_rate.xif61material_rate</comment>
+	     <sqlFile path="26. ocprice.material_rate.xif61material_rate.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8833" author="msavch" failOnError="false">
+	     <comment> Install index 27. ocprice.override._idx$$_01950001</comment>
+	     <sqlFile path="27. ocprice.override._idx$$_01950001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8834" author="msavch" failOnError="false">
+	     <comment> Install index 28. ocprice.override.xif23override</comment>
+	     <sqlFile path="28. ocprice.override.xif23override.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8835" author="msavch" failOnError="false">
+	     <comment> Install index 29. ocprice.password_expiration.xie1password_expiration</comment>
+	     <sqlFile path="29. ocprice.password_expiration.xie1password_expiration.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8836" author="msavch" failOnError="false">
+	     <comment> Install index 30. ocprice.promo_number._idx$$_01950002</comment>
+	     <sqlFile path="30. ocprice.promo_number._idx$$_01950002.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8837" author="msavch" failOnError="false">
+	     <comment> Install index 31. ocprice.promo_number.xif22promo_number</comment>
+	     <sqlFile path="31. ocprice.promo_number.xif22promo_number.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8838" author="msavch" failOnError="false">
+	     <comment> Install index 32. ocprice.promotion.idx050204083256727</comment>
+	     <sqlFile path="32. ocprice.promotion.idx050204083256727.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8839" author="msavch" failOnError="false">
+	     <comment> Install index 33. ocprice.promotion.promotion_ndx2</comment>
+	     <sqlFile path="33. ocprice.promotion.promotion_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8840" author="msavch" failOnError="false">
+	     <comment> Install index 34. ocprice.sub_material_num._idx$$_4f160025</comment>
+	     <sqlFile path="34. ocprice.sub_material_num._idx$$_4f160025.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8841" author="msavch" failOnError="false">
+	     <comment> Install index 35. ocprice.sub_material_num.idx050204083616644</comment>
+	     <sqlFile path="35. ocprice.sub_material_num.idx050204083616644.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8842" author="msavch" failOnError="false">
+	     <comment> Install index 36. ocprice.sub_material_num.xif26sub_material_num</comment>
+	     <sqlFile path="36. ocprice.sub_material_num.xif26sub_material_num.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8843" author="msavch" failOnError="false">
+	     <comment> Install index 37. ocprice.subscriber_defined.xif25subscriber_defined</comment>
+	     <sqlFile path="37. ocprice.subscriber_defined.xif25subscriber_defined.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8844" author="msavch" failOnError="false">
+	     <comment> Install index 38. ocprice.subscription._idx$$_4f160032</comment>
+	     <sqlFile path="38. ocprice.subscription._idx$$_4f160032.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8845" author="msavch" failOnError="false">
+	     <comment> Install index 39. ocprice.subscription.idx050128103942566</comment>
+	     <sqlFile path="39. ocprice.subscription.idx050128103942566.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8846" author="msavch" failOnError="false">
+	     <comment> Install index 40. ocprice.subscription.idx050128105618001</comment>
+	     <sqlFile path="40. ocprice.subscription.idx050128105618001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8847" author="msavch" failOnError="false">
+	     <comment> Install index 41. ocprice.subscription.subscription_idx2</comment>
+	     <sqlFile path="41. ocprice.subscription.subscription_idx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8848" author="msavch" failOnError="false">
+	     <comment> Install index 42. ocprice.subscription.subscription_ndx2</comment>
+	     <sqlFile path="42. ocprice.subscription.subscription_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8849" author="msavch" failOnError="false">
+	     <comment> Install index 43. ocprice.subscription.xie1subscription</comment>
+	     <sqlFile path="43. ocprice.subscription.xie1subscription.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8850" author="msavch" failOnError="false">
+	     <comment> Install index 44. ocprice.subscription.xie2subscription</comment>
+	     <sqlFile path="44. ocprice.subscription.xie2subscription.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8851" author="msavch" failOnError="false">
+	     <comment> Install index 45. ocprice.subscription.xie3incl_excl_bill</comment>
+	     <sqlFile path="45. ocprice.subscription.xie3incl_excl_bill.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8852" author="msavch" failOnError="false">
+	     <comment> Install index 46. ocprice.subscription.xie4subscription</comment>
+	     <sqlFile path="46. ocprice.subscription.xie4subscription.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8853" author="msavch" failOnError="false">
+	     <comment> Install index 47. ocprice.tiered_percent.xif19tiered_percent</comment>
+	     <sqlFile path="47. ocprice.tiered_percent.xif19tiered_percent.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8854" author="msavch" failOnError="false">
+	     <comment> Install index 48. ocprice.trial.xie2trial</comment>
+	     <sqlFile path="48. ocprice.trial.xie2trial.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8855" author="msavch" failOnError="false">
+	     <comment> Install index 49. ocprice.usage_limit.xie1usage_limit</comment>
+	     <sqlFile path="49. ocprice.usage_limit.xie1usage_limit.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8856" author="msavch" failOnError="false">
+	     <comment> Install index 50. ocprice.usage_price.idx050211111333884</comment>
+	     <sqlFile path="50. ocprice.usage_price.idx050211111333884.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8857" author="msavch" failOnError="false">
+	     <comment> Install index 51. ocprice.usage_price.idx050329140758001</comment>
+	     <sqlFile path="51. ocprice.usage_price.idx050329140758001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8858" author="msavch" failOnError="false">
+	     <comment> Install index 52. ocprice.usage_price.idx20060612</comment>
+	     <sqlFile path="52. ocprice.usage_price.idx20060612.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8859" author="msavch" failOnError="false">
+	     <comment> Install index 53. ocprice.usage_price.xif71usage_price</comment>
+	     <sqlFile path="53. ocprice.usage_price.xif71usage_price.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8860" author="msavch" failOnError="false">
+	     <comment> Install index 54. ocprice.user_id._idx$$_52320001</comment>
+	     <sqlFile path="54. ocprice.user_id._idx$$_52320001.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8861" author="msavch" failOnError="false">
+	     <comment> Install index 55. ocprice.user_id.user_id_ndx2</comment>
+	     <sqlFile path="55. ocprice.user_id.user_id_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8862" author="msavch" failOnError="false">
+	     <comment> Install index 56. ocprice.user_id.xie1user_id</comment>
+	     <sqlFile path="56. ocprice.user_id.xie1user_id.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8863" author="msavch" failOnError="false">
+	     <comment> Install index 57. ocprice.user_id.xie2user_idmod</comment>
+	     <sqlFile path="57. ocprice.user_id.xie2user_idmod.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8864" author="msavch" failOnError="false">
+	     <comment> Install index 58. ocprice.user_id.xie3user_id</comment>
+	     <sqlFile path="58. ocprice.user_id.xie3user_id.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8865" author="msavch" failOnError="false">
+	     <comment> Install index 59. ocprice.user_id.xie4user_id</comment>
+	     <sqlFile path="59. ocprice.user_id.xie4user_id.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8866" author="msavch" failOnError="false">
+	     <comment> Install index 60. ocprice.vendor_code.idx503122357030000</comment>
+	     <sqlFile path="60. ocprice.vendor_code.idx503122357030000.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

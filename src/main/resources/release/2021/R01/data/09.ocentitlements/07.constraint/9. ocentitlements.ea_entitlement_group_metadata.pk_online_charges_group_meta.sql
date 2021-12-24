@@ -1,0 +1,3 @@
+ALTER TABLE ocentitlements.ea_entitlement_group_metadata
+ADD CONSTRAINT pk_online_charges_group_meta PRIMARY KEY (ent_group_metadata_table_id);
+

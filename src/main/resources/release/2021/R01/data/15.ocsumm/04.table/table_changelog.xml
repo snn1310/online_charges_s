@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#8966" author="msavch" failOnError="false">
+	     <comment> Install table 0. ocsumm.availability</comment>
+	     <sqlFile path="0. ocsumm.availability.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8967" author="msavch" failOnError="false">
+	     <comment> Install table 1. ocsumm.balance_totals</comment>
+	     <sqlFile path="1. ocsumm.balance_totals.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8968" author="msavch" failOnError="false">
+	     <comment> Install table 2. ocsumm.config_item</comment>
+	     <sqlFile path="2. ocsumm.config_item.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8969" author="msavch" failOnError="false">
+	     <comment> Install table 3. ocsumm.config_value</comment>
+	     <sqlFile path="3. ocsumm.config_value.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8970" author="msavch" failOnError="false">
+	     <comment> Install table 4. ocsumm.control_table</comment>
+	     <sqlFile path="4. ocsumm.control_table.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8971" author="msavch" failOnError="false">
+	     <comment> Install table 5. ocsumm.daily_total</comment>
+	     <sqlFile path="5. ocsumm.daily_total.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8972" author="msavch" failOnError="false">
+	     <comment> Install table 6. ocsumm.document_category_summary</comment>
+	     <sqlFile path="6. ocsumm.document_category_summary.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8973" author="msavch" failOnError="false">
+	     <comment> Install table 7. ocsumm.permissible_use_correction</comment>
+	     <sqlFile path="7. ocsumm.permissible_use_correction.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8974" author="msavch" failOnError="false">
+	     <comment> Install table 8. ocsumm.schema_version</comment>
+	     <sqlFile path="8. ocsumm.schema_version.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8975" author="msavch" failOnError="false">
+	     <comment> Install table 9. ocsumm.summary_correction</comment>
+	     <sqlFile path="9. ocsumm.summary_correction.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8976" author="msavch" failOnError="false">
+	     <comment> Install table 10. ocsumm.summary_usage_correction</comment>
+	     <sqlFile path="10. ocsumm.summary_usage_correction.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8977" author="msavch" failOnError="false">
+	     <comment> Install table 11. ocsumm.toad_plan_table</comment>
+	     <sqlFile path="11. ocsumm.toad_plan_table.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

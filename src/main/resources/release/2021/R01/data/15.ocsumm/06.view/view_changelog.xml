@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#8983" author="msavch" failOnError="false">
+	     <comment> Install view 0. ocsumm.customer</comment>
+	     <sqlFile path="0. ocsumm.customer.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8984" author="msavch" failOnError="false">
+	     <comment> Install view 1. ocsumm.customer_document_map</comment>
+	     <sqlFile path="1. ocsumm.customer_document_map.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8985" author="msavch" failOnError="false">
+	     <comment> Install view 2. ocsumm.discount</comment>
+	     <sqlFile path="2. ocsumm.discount.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8986" author="msavch" failOnError="false">
+	     <comment> Install view 3. ocsumm.discount_trans_usg</comment>
+	     <sqlFile path="3. ocsumm.discount_trans_usg.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8987" author="msavch" failOnError="false">
+	     <comment> Install view 4. ocsumm.from_inplan</comment>
+	     <sqlFile path="4. ocsumm.from_inplan.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8988" author="msavch" failOnError="false">
+	     <comment> Install view 5. ocsumm.gateway</comment>
+	     <sqlFile path="5. ocsumm.gateway.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8989" author="msavch" failOnError="false">
+	     <comment> Install view 6. ocsumm.inplan</comment>
+	     <sqlFile path="6. ocsumm.inplan.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8990" author="msavch" failOnError="false">
+	     <comment> Install view 7. ocsumm.permissible_use</comment>
+	     <sqlFile path="7. ocsumm.permissible_use.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8991" author="msavch" failOnError="false">
+	     <comment> Install view 8. ocsumm.royalty</comment>
+	     <sqlFile path="8. ocsumm.royalty.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8992" author="msavch" failOnError="false">
+	     <comment> Install view 9. ocsumm.royalty_usage</comment>
+	     <sqlFile path="9. ocsumm.royalty_usage.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8993" author="msavch" failOnError="false">
+	     <comment> Install view 10. ocsumm.session_detail</comment>
+	     <sqlFile path="10. ocsumm.session_detail.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8994" author="msavch" failOnError="false">
+	     <comment> Install view 11. ocsumm.usage</comment>
+	     <sqlFile path="11. ocsumm.usage.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8995" author="msavch" failOnError="false">
+	     <comment> Install view 12. ocsumm.vip_monitoring</comment>
+	     <sqlFile path="12. ocsumm.vip_monitoring.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

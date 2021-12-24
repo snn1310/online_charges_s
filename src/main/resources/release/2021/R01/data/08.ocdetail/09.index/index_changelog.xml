@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#8574" author="msavch" failOnError="false">
+	     <comment> Install index 0. ocdetail.billing_detail.billing_detail_idx1</comment>
+	     <sqlFile path="0. ocdetail.billing_detail.billing_detail_idx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8575" author="msavch" failOnError="false">
+	     <comment> Install index 1. ocdetail.billing_detail.billing_detail_idx2</comment>
+	     <sqlFile path="1. ocdetail.billing_detail.billing_detail_idx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8576" author="msavch" failOnError="false">
+	     <comment> Install index 2. ocdetail.billing_detail.billing_detail_idx3</comment>
+	     <sqlFile path="2. ocdetail.billing_detail.billing_detail_idx3.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8577" author="msavch" failOnError="false">
+	     <comment> Install index 3. ocdetail.billing_detail.billing_detail_idx4</comment>
+	     <sqlFile path="3. ocdetail.billing_detail.billing_detail_idx4.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8578" author="msavch" failOnError="false">
+	     <comment> Install index 4. ocdetail.billing_detail.billing_detail_idx5</comment>
+	     <sqlFile path="4. ocdetail.billing_detail.billing_detail_idx5.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8579" author="msavch" failOnError="false">
+	     <comment> Install index 5. ocdetail.content.content_idx1</comment>
+	     <sqlFile path="5. ocdetail.content.content_idx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8580" author="msavch" failOnError="false">
+	     <comment> Install index 6. ocdetail.content.content_idx2</comment>
+	     <sqlFile path="6. ocdetail.content.content_idx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8581" author="msavch" failOnError="false">
+	     <comment> Install index 7. ocdetail.content.content_idx3</comment>
+	     <sqlFile path="7. ocdetail.content.content_idx3.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8582" author="msavch" failOnError="false">
+	     <comment> Install index 8. ocdetail.customer_detail.customer_detail_idx5</comment>
+	     <sqlFile path="8. ocdetail.customer_detail.customer_detail_idx5.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8583" author="msavch" failOnError="false">
+	     <comment> Install index 9. ocdetail.customer_detail.customer_detail_ndx1</comment>
+	     <sqlFile path="9. ocdetail.customer_detail.customer_detail_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8584" author="msavch" failOnError="false">
+	     <comment> Install index 10. ocdetail.customer_detail.customer_detail_ndx2</comment>
+	     <sqlFile path="10. ocdetail.customer_detail.customer_detail_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8585" author="msavch" failOnError="false">
+	     <comment> Install index 11. ocdetail.customer_detail.customer_detail_ndx3</comment>
+	     <sqlFile path="11. ocdetail.customer_detail.customer_detail_ndx3.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8586" author="msavch" failOnError="false">
+	     <comment> Install index 12. ocdetail.customer_detail.customer_detail_ndx4</comment>
+	     <sqlFile path="12. ocdetail.customer_detail.customer_detail_ndx4.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8587" author="msavch" failOnError="false">
+	     <comment> Install index 13. ocdetail.detail_correction.detail_correction_ndx1</comment>
+	     <sqlFile path="13. ocdetail.detail_correction.detail_correction_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8588" author="msavch" failOnError="false">
+	     <comment> Install index 14. ocdetail.detail_correction.detail_correction_ndx2</comment>
+	     <sqlFile path="14. ocdetail.detail_correction.detail_correction_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8589" author="msavch" failOnError="false">
+	     <comment> Install index 15. ocdetail.discount_detail.discount_detail_ndx1</comment>
+	     <sqlFile path="15. ocdetail.discount_detail.discount_detail_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8590" author="msavch" failOnError="false">
+	     <comment> Install index 16. ocdetail.discount_detail.discount_detail_ndx2</comment>
+	     <sqlFile path="16. ocdetail.discount_detail.discount_detail_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8591" author="msavch" failOnError="false">
+	     <comment> Install index 17. ocdetail.error_log.error_log_ndx1</comment>
+	     <sqlFile path="17. ocdetail.error_log.error_log_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8592" author="msavch" failOnError="false">
+	     <comment> Install index 18. ocdetail.error_log.error_log_ndx2</comment>
+	     <sqlFile path="18. ocdetail.error_log.error_log_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8593" author="msavch" failOnError="false">
+	     <comment> Install index 19. ocdetail.event_history.event_history_ndx1</comment>
+	     <sqlFile path="19. ocdetail.event_history.event_history_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8594" author="msavch" failOnError="false">
+	     <comment> Install index 20. ocdetail.event_history.event_history_ndx2</comment>
+	     <sqlFile path="20. ocdetail.event_history.event_history_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8595" author="msavch" failOnError="false">
+	     <comment> Install index 21. ocdetail.event_history.event_history_ndx3</comment>
+	     <sqlFile path="21. ocdetail.event_history.event_history_ndx3.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8596" author="msavch" failOnError="false">
+	     <comment> Install index 22. ocdetail.event_history.event_history_ndx5</comment>
+	     <sqlFile path="22. ocdetail.event_history.event_history_ndx5.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8597" author="msavch" failOnError="false">
+	     <comment> Install index 23. ocdetail.gateway_royalty.gateway_royalty_ndx1</comment>
+	     <sqlFile path="23. ocdetail.gateway_royalty.gateway_royalty_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8598" author="msavch" failOnError="false">
+	     <comment> Install index 24. ocdetail.gateway_royalty.gateway_royalty_ndx2</comment>
+	     <sqlFile path="24. ocdetail.gateway_royalty.gateway_royalty_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8599" author="msavch" failOnError="false">
+	     <comment> Install index 25. ocdetail.jurisdiction.jurisdiction_idx1</comment>
+	     <sqlFile path="25. ocdetail.jurisdiction.jurisdiction_idx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8600" author="msavch" failOnError="false">
+	     <comment> Install index 26. ocdetail.limit_accumulation.xie1limit_accumulation</comment>
+	     <sqlFile path="26. ocdetail.limit_accumulation.xie1limit_accumulation.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8601" author="msavch" failOnError="false">
+	     <comment> Install index 27. ocdetail.limit_accumulation.xie2limit_accumulation</comment>
+	     <sqlFile path="27. ocdetail.limit_accumulation.xie2limit_accumulation.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8602" author="msavch" failOnError="false">
+	     <comment> Install index 28. ocdetail.router_control.router_control_uk</comment>
+	     <sqlFile path="28. ocdetail.router_control.router_control_uk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8603" author="msavch" failOnError="false">
+	     <comment> Install index 29. ocdetail.roy_tran_usg_detail.roy_tran_usg_detail_idx1</comment>
+	     <sqlFile path="29. ocdetail.roy_tran_usg_detail.roy_tran_usg_detail_idx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8604" author="msavch" failOnError="false">
+	     <comment> Install index 30. ocdetail.roy_tran_usg_pricing.roy_tran_usg_pricing_idx1</comment>
+	     <sqlFile path="30. ocdetail.roy_tran_usg_pricing.roy_tran_usg_pricing_idx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8605" author="msavch" failOnError="false">
+	     <comment> Install index 31. ocdetail.roy_tran_usg_pricing.roy_tran_usg_pricing_idx2</comment>
+	     <sqlFile path="31. ocdetail.roy_tran_usg_pricing.roy_tran_usg_pricing_idx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8606" author="msavch" failOnError="false">
+	     <comment> Install index 32. ocdetail.royalty_tran_usage.royalty_tran_usage_fk1</comment>
+	     <sqlFile path="32. ocdetail.royalty_tran_usage.royalty_tran_usage_fk1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8607" author="msavch" failOnError="false">
+	     <comment> Install index 33. ocdetail.segment_detail.segment_detail_ndx1</comment>
+	     <sqlFile path="33. ocdetail.segment_detail.segment_detail_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8608" author="msavch" failOnError="false">
+	     <comment> Install index 34. ocdetail.segment_detail.segment_detail_ndx2</comment>
+	     <sqlFile path="34. ocdetail.segment_detail.segment_detail_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8609" author="msavch" failOnError="false">
+	     <comment> Install index 35. ocdetail.segment_detail.segment_detail_ndx3</comment>
+	     <sqlFile path="35. ocdetail.segment_detail.segment_detail_ndx3.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8610" author="msavch" failOnError="false">
+	     <comment> Install index 36. ocdetail.session_detail.session_detail_ndx1</comment>
+	     <sqlFile path="36. ocdetail.session_detail.session_detail_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8611" author="msavch" failOnError="false">
+	     <comment> Install index 37. ocdetail.session_detail.session_detail_ndx2</comment>
+	     <sqlFile path="37. ocdetail.session_detail.session_detail_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8612" author="msavch" failOnError="false">
+	     <comment> Install index 38. ocdetail.session_detail.session_detail_ndx3</comment>
+	     <sqlFile path="38. ocdetail.session_detail.session_detail_ndx3.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8613" author="msavch" failOnError="false">
+	     <comment> Install index 39. ocdetail.session_detail.session_detail_ndx4</comment>
+	     <sqlFile path="39. ocdetail.session_detail.session_detail_ndx4.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8614" author="msavch" failOnError="false">
+	     <comment> Install index 40. ocdetail.time_inplan.time_inplan_ndx1</comment>
+	     <sqlFile path="40. ocdetail.time_inplan.time_inplan_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8615" author="msavch" failOnError="false">
+	     <comment> Install index 41. ocdetail.time_royalty.time_royalty_ndx1</comment>
+	     <sqlFile path="41. ocdetail.time_royalty.time_royalty_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8616" author="msavch" failOnError="false">
+	     <comment> Install index 42. ocdetail.time_royalty.time_royalty_ndx2</comment>
+	     <sqlFile path="42. ocdetail.time_royalty.time_royalty_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8617" author="msavch" failOnError="false">
+	     <comment> Install index 43. ocdetail.time_royalty.time_royalty_ndx3</comment>
+	     <sqlFile path="43. ocdetail.time_royalty.time_royalty_ndx3.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8618" author="msavch" failOnError="false">
+	     <comment> Install index 44. ocdetail.tran_inplan.tran_inplan_ndx1</comment>
+	     <sqlFile path="44. ocdetail.tran_inplan.tran_inplan_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8619" author="msavch" failOnError="false">
+	     <comment> Install index 45. ocdetail.tran_royalty.tran_royalty_ndx1</comment>
+	     <sqlFile path="45. ocdetail.tran_royalty.tran_royalty_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8620" author="msavch" failOnError="false">
+	     <comment> Install index 46. ocdetail.transaction_document.transaction_document_idx1</comment>
+	     <sqlFile path="46. ocdetail.transaction_document.transaction_document_idx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8621" author="msavch" failOnError="false">
+	     <comment> Install index 47. ocdetail.transaction_usage.transaction_usage_ndx1</comment>
+	     <sqlFile path="47. ocdetail.transaction_usage.transaction_usage_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8622" author="msavch" failOnError="false">
+	     <comment> Install index 48. ocdetail.transaction_usage.transaction_usage_ndx2</comment>
+	     <sqlFile path="48. ocdetail.transaction_usage.transaction_usage_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8623" author="msavch" failOnError="false">
+	     <comment> Install index 49. ocdetail.transaction_usage.transaction_usage_ndx3</comment>
+	     <sqlFile path="49. ocdetail.transaction_usage.transaction_usage_ndx3.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8624" author="msavch" failOnError="false">
+	     <comment> Install index 50. ocdetail.usg_billing_detail.usg_billing_detail_ndx1</comment>
+	     <sqlFile path="50. ocdetail.usg_billing_detail.usg_billing_detail_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8625" author="msavch" failOnError="false">
+	     <comment> Install index 51. ocdetail.warn.warn_ndx1</comment>
+	     <sqlFile path="51. ocdetail.warn.warn_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8626" author="msavch" failOnError="false">
+	     <comment> Install index 52. ocdetail.warn.warn_ndx2</comment>
+	     <sqlFile path="52. ocdetail.warn.warn_ndx2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8627" author="msavch" failOnError="false">
+	     <comment> Install index 53. ocdetail.warn_promo.warn_promo_ndx1</comment>
+	     <sqlFile path="53. ocdetail.warn_promo.warn_promo_ndx1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

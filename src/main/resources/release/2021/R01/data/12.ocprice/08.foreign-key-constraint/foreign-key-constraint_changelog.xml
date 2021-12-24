@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#8927" author="msavch" failOnError="false">
+	     <comment> Install foreign-key-constraint 0. ocprice.config_value.r_1</comment>
+	     <sqlFile path="0. ocprice.config_value.r_1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8928" author="msavch" failOnError="false">
+	     <comment> Install foreign-key-constraint 1. ocprice.content_detail.r_21</comment>
+	     <sqlFile path="1. ocprice.content_detail.r_21.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8929" author="msavch" failOnError="false">
+	     <comment> Install foreign-key-constraint 2. ocprice.content_exemplar.r_27</comment>
+	     <sqlFile path="2. ocprice.content_exemplar.r_27.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8930" author="msavch" failOnError="false">
+	     <comment> Install foreign-key-constraint 3. ocprice.document_percent.r_4</comment>
+	     <sqlFile path="3. ocprice.document_percent.r_4.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8931" author="msavch" failOnError="false">
+	     <comment> Install foreign-key-constraint 4. ocprice.document_price.r_2</comment>
+	     <sqlFile path="4. ocprice.document_price.r_2.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8932" author="msavch" failOnError="false">
+	     <comment> Install foreign-key-constraint 5. ocprice.material_price_grp.r_72</comment>
+	     <sqlFile path="5. ocprice.material_price_grp.r_72.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8933" author="msavch" failOnError="false">
+	     <comment> Install foreign-key-constraint 6. ocprice.material_rate.r_61</comment>
+	     <sqlFile path="6. ocprice.material_rate.r_61.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8934" author="msavch" failOnError="false">
+	     <comment> Install foreign-key-constraint 7. ocprice.override.r_23</comment>
+	     <sqlFile path="7. ocprice.override.r_23.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8935" author="msavch" failOnError="false">
+	     <comment> Install foreign-key-constraint 8. ocprice.promo_number.r_22</comment>
+	     <sqlFile path="8. ocprice.promo_number.r_22.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8936" author="msavch" failOnError="false">
+	     <comment> Install foreign-key-constraint 9. ocprice.promotion_content.xfkpromotion_content</comment>
+	     <sqlFile path="9. ocprice.promotion_content.xfkpromotion_content.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8937" author="msavch" failOnError="false">
+	     <comment> Install foreign-key-constraint 10. ocprice.sub_material_num.r_26</comment>
+	     <sqlFile path="10. ocprice.sub_material_num.r_26.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8938" author="msavch" failOnError="false">
+	     <comment> Install foreign-key-constraint 11. ocprice.subscriber_defined.r_25</comment>
+	     <sqlFile path="11. ocprice.subscriber_defined.r_25.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8939" author="msavch" failOnError="false">
+	     <comment> Install foreign-key-constraint 12. ocprice.tiered_percent.r_19</comment>
+	     <sqlFile path="12. ocprice.tiered_percent.r_19.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8940" author="msavch" failOnError="false">
+	     <comment> Install foreign-key-constraint 13. ocprice.usage_price.r_71</comment>
+	     <sqlFile path="13. ocprice.usage_price.r_71.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

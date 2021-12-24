@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#10843" author="msavch" failOnError="false">
+	     <comment> Install trigger 0. wlregistration.customer_contact.tr_customer_contact</comment>
+	     <sqlFile path="0. wlregistration.customer_contact.tr_customer_contact.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10844" author="msavch" failOnError="false">
+	     <comment> Install trigger 1. wlregistration.password.tr_password</comment>
+	     <sqlFile path="1. wlregistration.password.tr_password.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10845" author="msavch" failOnError="false">
+	     <comment> Install trigger 2. wlregistration.password_map.tr_password_map</comment>
+	     <sqlFile path="2. wlregistration.password_map.tr_password_map.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10846" author="msavch" failOnError="false">
+	     <comment> Install trigger 3. wlregistration.password_type.tr_password_type</comment>
+	     <sqlFile path="3. wlregistration.password_type.tr_password_type.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10847" author="msavch" failOnError="false">
+	     <comment> Install trigger 4. wlregistration.promotion_profile.tr_promotion_profile</comment>
+	     <sqlFile path="4. wlregistration.promotion_profile.tr_promotion_profile.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10848" author="msavch" failOnError="false">
+	     <comment> Install trigger 5. wlregistration.reg_count.tr_reg_count</comment>
+	     <sqlFile path="5. wlregistration.reg_count.tr_reg_count.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10849" author="msavch" failOnError="false">
+	     <comment> Install trigger 6. wlregistration.reg_count_notify.tr_reg_count_notify</comment>
+	     <sqlFile path="6. wlregistration.reg_count_notify.tr_reg_count_notify.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10850" author="msavch" failOnError="false">
+	     <comment> Install trigger 7. wlregistration.reg_daily_count.tr_reg_daily_count</comment>
+	     <sqlFile path="7. wlregistration.reg_daily_count.tr_reg_daily_count.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10851" author="msavch" failOnError="false">
+	     <comment> Install trigger 8. wlregistration.reg_event_history.tr_reg_event_history</comment>
+	     <sqlFile path="8. wlregistration.reg_event_history.tr_reg_event_history.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10852" author="msavch" failOnError="false">
+	     <comment> Install trigger 9. wlregistration.threshold.tr_threshold</comment>
+	     <sqlFile path="9. wlregistration.threshold.tr_threshold.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10853" author="msavch" failOnError="false">
+	     <comment> Install trigger 10. wlregistration.threshold_notify.tr_threshold_notify</comment>
+	     <sqlFile path="10. wlregistration.threshold_notify.tr_threshold_notify.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

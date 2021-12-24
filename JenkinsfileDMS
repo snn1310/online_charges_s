@@ -157,7 +157,7 @@ pipeline{
 			}
 		}		
 
-       stage("create schema tr_customer_contact") {
+       stage("create schema wlregistration") {
 
 			steps {
 				sh "bash liquibase/callLiquibase_18_wlregistration.sh"

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#10829" author="msavch" failOnError="false">
+	     <comment> Install foreign-key-constraint 0. wlregistration.password.r_80</comment>
+	     <sqlFile path="0. wlregistration.password.r_80.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10830" author="msavch" failOnError="false">
+	     <comment> Install foreign-key-constraint 1. wlregistration.threshold.r_82</comment>
+	     <sqlFile path="1. wlregistration.threshold.r_82.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10831" author="msavch" failOnError="false">
+	     <comment> Install foreign-key-constraint 2. wlregistration.threshold_notify.r_81</comment>
+	     <sqlFile path="2. wlregistration.threshold_notify.r_81.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

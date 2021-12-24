@@ -13,7 +13,7 @@
 	<include relativeToChangelogFile="true" file="data\13.ocquote\08.foreign-key-constraint\foreign-key-constraint_changelog.xml"/>	
 	<include relativeToChangelogFile="true" file="data\14.ocregistration\08.foreign-key-constraint\foreign-key-constraint_changelog.xml"/>	
 	<include relativeToChangelogFile="true" file="data\15.ocsumm\08.foreign-key-constraint\foreign-key-constraint_changelog.xml"/>		
-	<include relativeToChangelogFile="true" file="data\18.tr_customer_contact\08.foreign-key-constraint\foreign-key-constraint_changelog.xml"/>		
+	<include relativeToChangelogFile="true" file="data\18.wlregistration\08.foreign-key-constraint\foreign-key-constraint_changelog.xml"/>		
 
 </databaseChangeLog>
 

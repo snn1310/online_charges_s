@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#10832" author="msavch" failOnError="false">
+	     <comment> Install function 0. wlregistration.tr_customer_contact$customer_contact</comment>
+	     <sqlFile path="0. wlregistration.tr_customer_contact$customer_contact.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10833" author="msavch" failOnError="false">
+	     <comment> Install function 1. wlregistration.tr_password$password</comment>
+	     <sqlFile path="1. wlregistration.tr_password$password.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10834" author="msavch" failOnError="false">
+	     <comment> Install function 2. wlregistration.tr_password_map$password_map</comment>
+	     <sqlFile path="2. wlregistration.tr_password_map$password_map.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10835" author="msavch" failOnError="false">
+	     <comment> Install function 3. wlregistration.tr_password_type$password_type</comment>
+	     <sqlFile path="3. wlregistration.tr_password_type$password_type.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10836" author="msavch" failOnError="false">
+	     <comment> Install function 4. wlregistration.tr_promotion_profile$promotion_profile</comment>
+	     <sqlFile path="4. wlregistration.tr_promotion_profile$promotion_profile.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10837" author="msavch" failOnError="false">
+	     <comment> Install function 5. wlregistration.tr_reg_count$reg_count</comment>
+	     <sqlFile path="5. wlregistration.tr_reg_count$reg_count.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10838" author="msavch" failOnError="false">
+	     <comment> Install function 6. wlregistration.tr_reg_count_notify$reg_count_notify</comment>
+	     <sqlFile path="6. wlregistration.tr_reg_count_notify$reg_count_notify.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10839" author="msavch" failOnError="false">
+	     <comment> Install function 7. wlregistration.tr_reg_daily_count$reg_daily_count</comment>
+	     <sqlFile path="7. wlregistration.tr_reg_daily_count$reg_daily_count.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10840" author="msavch" failOnError="false">
+	     <comment> Install function 8. wlregistration.tr_reg_event_history$reg_event_history</comment>
+	     <sqlFile path="8. wlregistration.tr_reg_event_history$reg_event_history.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10841" author="msavch" failOnError="false">
+	     <comment> Install function 9. wlregistration.tr_threshold$threshold</comment>
+	     <sqlFile path="9. wlregistration.tr_threshold$threshold.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10842" author="msavch" failOnError="false">
+	     <comment> Install function 10. wlregistration.tr_threshold_notify$threshold_notify</comment>
+	     <sqlFile path="10. wlregistration.tr_threshold_notify$threshold_notify.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

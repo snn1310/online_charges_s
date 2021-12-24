@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#8628" author="msavch" failOnError="false">
+	     <comment> Install constraint 0. ocdetail.analytics_totals.xpkanalytics_totals</comment>
+	     <sqlFile path="0. ocdetail.analytics_totals.xpkanalytics_totals.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8629" author="msavch" failOnError="false">
+	     <comment> Install constraint 1. ocdetail.availability.xpkavailability</comment>
+	     <sqlFile path="1. ocdetail.availability.xpkavailability.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8630" author="msavch" failOnError="false">
+	     <comment> Install constraint 2. ocdetail.balance_totals.xpkbalance_totals</comment>
+	     <sqlFile path="2. ocdetail.balance_totals.xpkbalance_totals.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8631" author="msavch" failOnError="false">
+	     <comment> Install constraint 3. ocdetail.billable_cap_accumulation.xpkbillcap</comment>
+	     <sqlFile path="3. ocdetail.billable_cap_accumulation.xpkbillcap.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8632" author="msavch" failOnError="false">
+	     <comment> Install constraint 4. ocdetail.billing_detail.billing_detail_pk</comment>
+	     <sqlFile path="4. ocdetail.billing_detail.billing_detail_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8633" author="msavch" failOnError="false">
+	     <comment> Install constraint 5. ocdetail.billing_detail_correction.xpkbilling_detail_correction</comment>
+	     <sqlFile path="5. ocdetail.billing_detail_correction.xpkbilling_detail_correction.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8634" author="msavch" failOnError="false">
+	     <comment> Install constraint 6. ocdetail.content.content_pk</comment>
+	     <sqlFile path="6. ocdetail.content.content_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8635" author="msavch" failOnError="false">
+	     <comment> Install constraint 7. ocdetail.control_table.xpkcontrol_table</comment>
+	     <sqlFile path="7. ocdetail.control_table.xpkcontrol_table.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8636" author="msavch" failOnError="false">
+	     <comment> Install constraint 8. ocdetail.customer_detail.customer_detail_pk</comment>
+	     <sqlFile path="8. ocdetail.customer_detail.customer_detail_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8637" author="msavch" failOnError="false">
+	     <comment> Install constraint 9. ocdetail.detail_correction.xpkdetail_correction</comment>
+	     <sqlFile path="9. ocdetail.detail_correction.xpkdetail_correction.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8638" author="msavch" failOnError="false">
+	     <comment> Install constraint 10. ocdetail.discount_detail.discount_detail_pk</comment>
+	     <sqlFile path="10. ocdetail.discount_detail.discount_detail_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8639" author="msavch" failOnError="false">
+	     <comment> Install constraint 11. ocdetail.error_log.error_log_pk</comment>
+	     <sqlFile path="11. ocdetail.error_log.error_log_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8640" author="msavch" failOnError="false">
+	     <comment> Install constraint 12. ocdetail.event_history.event_history_pk</comment>
+	     <sqlFile path="12. ocdetail.event_history.event_history_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8641" author="msavch" failOnError="false">
+	     <comment> Install constraint 13. ocdetail.gateway_royalty.gateway_royalty_pk</comment>
+	     <sqlFile path="13. ocdetail.gateway_royalty.gateway_royalty_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8642" author="msavch" failOnError="false">
+	     <comment> Install constraint 14. ocdetail.jurisdiction.jurisdiction_pk</comment>
+	     <sqlFile path="14. ocdetail.jurisdiction.jurisdiction_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8643" author="msavch" failOnError="false">
+	     <comment> Install constraint 15. ocdetail.limit_accumulation.xpklimit_accumulation</comment>
+	     <sqlFile path="15. ocdetail.limit_accumulation.xpklimit_accumulation.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8644" author="msavch" failOnError="false">
+	     <comment> Install constraint 16. ocdetail.router_control.router_control_pk</comment>
+	     <sqlFile path="16. ocdetail.router_control.router_control_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8645" author="msavch" failOnError="false">
+	     <comment> Install constraint 17. ocdetail.roy_tran_usg_detail.roy_tran_usg_detail_pk</comment>
+	     <sqlFile path="17. ocdetail.roy_tran_usg_detail.roy_tran_usg_detail_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8646" author="msavch" failOnError="false">
+	     <comment> Install constraint 18. ocdetail.roy_tran_usg_pricing.roy_tran_usg_pricing_pk</comment>
+	     <sqlFile path="18. ocdetail.roy_tran_usg_pricing.roy_tran_usg_pricing_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8647" author="msavch" failOnError="false">
+	     <comment> Install constraint 19. ocdetail.royalty_tran_usage.royalty_tran_usage_pk</comment>
+	     <sqlFile path="19. ocdetail.royalty_tran_usage.royalty_tran_usage_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8648" author="msavch" failOnError="false">
+	     <comment> Install constraint 20. ocdetail.schema_version.xpkschema_version</comment>
+	     <sqlFile path="20. ocdetail.schema_version.xpkschema_version.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8649" author="msavch" failOnError="false">
+	     <comment> Install constraint 21. ocdetail.segment_detail.segment_detail_pk</comment>
+	     <sqlFile path="21. ocdetail.segment_detail.segment_detail_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8650" author="msavch" failOnError="false">
+	     <comment> Install constraint 22. ocdetail.segment_detail_correction.xpksegment_detail_correction</comment>
+	     <sqlFile path="22. ocdetail.segment_detail_correction.xpksegment_detail_correction.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8651" author="msavch" failOnError="false">
+	     <comment> Install constraint 23. ocdetail.session_detail.session_detail_pk</comment>
+	     <sqlFile path="23. ocdetail.session_detail.session_detail_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8652" author="msavch" failOnError="false">
+	     <comment> Install constraint 24. ocdetail.session_status.xpksession_status</comment>
+	     <sqlFile path="24. ocdetail.session_status.xpksession_status.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8653" author="msavch" failOnError="false">
+	     <comment> Install constraint 25. ocdetail.time_inplan.time_inplan_pk</comment>
+	     <sqlFile path="25. ocdetail.time_inplan.time_inplan_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8654" author="msavch" failOnError="false">
+	     <comment> Install constraint 26. ocdetail.time_royalty.time_royalty_pk</comment>
+	     <sqlFile path="26. ocdetail.time_royalty.time_royalty_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8655" author="msavch" failOnError="false">
+	     <comment> Install constraint 27. ocdetail.tran_inplan.tran_inplan_pk</comment>
+	     <sqlFile path="27. ocdetail.tran_inplan.tran_inplan_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8656" author="msavch" failOnError="false">
+	     <comment> Install constraint 28. ocdetail.tran_royalty.tran_royalty_pk</comment>
+	     <sqlFile path="28. ocdetail.tran_royalty.tran_royalty_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8657" author="msavch" failOnError="false">
+	     <comment> Install constraint 29. ocdetail.transaction_document.transaction_document_pk</comment>
+	     <sqlFile path="29. ocdetail.transaction_document.transaction_document_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8658" author="msavch" failOnError="false">
+	     <comment> Install constraint 30. ocdetail.transaction_usage.transaction_usage_pk</comment>
+	     <sqlFile path="30. ocdetail.transaction_usage.transaction_usage_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8659" author="msavch" failOnError="false">
+	     <comment> Install constraint 31. ocdetail.usg_billing_detail.usg_billing_detail_pk</comment>
+	     <sqlFile path="31. ocdetail.usg_billing_detail.usg_billing_detail_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8660" author="msavch" failOnError="false">
+	     <comment> Install constraint 32. ocdetail.valid_value_det.xpkvalid_value_det</comment>
+	     <sqlFile path="32. ocdetail.valid_value_det.xpkvalid_value_det.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8661" author="msavch" failOnError="false">
+	     <comment> Install constraint 33. ocdetail.warn.warn_pk</comment>
+	     <sqlFile path="33. ocdetail.warn.warn_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8662" author="msavch" failOnError="false">
+	     <comment> Install constraint 34. ocdetail.warn_promo.warn_promo_pk</comment>
+	     <sqlFile path="34. ocdetail.warn_promo.warn_promo_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

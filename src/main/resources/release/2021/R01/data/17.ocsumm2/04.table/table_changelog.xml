@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#9908" author="msavch" failOnError="false">
+	     <comment> Install table 0. ocsumm2.customer</comment>
+	     <sqlFile path="0. ocsumm2.customer.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#9909" author="msavch" failOnError="false">
+	     <comment> Install table 1. ocsumm2.customer_document_map</comment>
+	     <sqlFile path="1. ocsumm2.customer_document_map.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#9910" author="msavch" failOnError="false">
+	     <comment> Install table 2. ocsumm2.discount</comment>
+	     <sqlFile path="2. ocsumm2.discount.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#9911" author="msavch" failOnError="false">
+	     <comment> Install table 3. ocsumm2.discount_trans_usg</comment>
+	     <sqlFile path="3. ocsumm2.discount_trans_usg.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#9912" author="msavch" failOnError="false">
+	     <comment> Install table 4. ocsumm2.from_inplan</comment>
+	     <sqlFile path="4. ocsumm2.from_inplan.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#9913" author="msavch" failOnError="false">
+	     <comment> Install table 5. ocsumm2.gateway</comment>
+	     <sqlFile path="5. ocsumm2.gateway.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#9914" author="msavch" failOnError="false">
+	     <comment> Install table 6. ocsumm2.inplan</comment>
+	     <sqlFile path="6. ocsumm2.inplan.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#9915" author="msavch" failOnError="false">
+	     <comment> Install table 7. ocsumm2.permissible_use</comment>
+	     <sqlFile path="7. ocsumm2.permissible_use.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#9916" author="msavch" failOnError="false">
+	     <comment> Install table 8. ocsumm2.royalty</comment>
+	     <sqlFile path="8. ocsumm2.royalty.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#9917" author="msavch" failOnError="false">
+	     <comment> Install table 9. ocsumm2.royalty_usage</comment>
+	     <sqlFile path="9. ocsumm2.royalty_usage.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#9918" author="msavch" failOnError="false">
+	     <comment> Install table 10. ocsumm2.session_detail</comment>
+	     <sqlFile path="10. ocsumm2.session_detail.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#9919" author="msavch" failOnError="false">
+	     <comment> Install table 11. ocsumm2.usage</comment>
+	     <sqlFile path="11. ocsumm2.usage.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#9920" author="msavch" failOnError="false">
+	     <comment> Install table 12. ocsumm2.vip_monitoring</comment>
+	     <sqlFile path="12. ocsumm2.vip_monitoring.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

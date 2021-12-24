@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#10791" author="msavch" failOnError="false">
+	     <comment> Install constraint 0. ocsumm2.customer.xpkcustomer</comment>
+	     <sqlFile path="0. ocsumm2.customer.xpkcustomer.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10792" author="msavch" failOnError="false">
+	     <comment> Install constraint 1. ocsumm2.customer_document_map.customer_document_map_pk</comment>
+	     <sqlFile path="1. ocsumm2.customer_document_map.customer_document_map_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10793" author="msavch" failOnError="false">
+	     <comment> Install constraint 2. ocsumm2.discount.xpkdiscount</comment>
+	     <sqlFile path="2. ocsumm2.discount.xpkdiscount.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10794" author="msavch" failOnError="false">
+	     <comment> Install constraint 3. ocsumm2.discount_trans_usg.xpkdiscount_trans_usg</comment>
+	     <sqlFile path="3. ocsumm2.discount_trans_usg.xpkdiscount_trans_usg.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10795" author="msavch" failOnError="false">
+	     <comment> Install constraint 4. ocsumm2.from_inplan.xpkfrom_inplan</comment>
+	     <sqlFile path="4. ocsumm2.from_inplan.xpkfrom_inplan.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10796" author="msavch" failOnError="false">
+	     <comment> Install constraint 5. ocsumm2.gateway.xpkgateway</comment>
+	     <sqlFile path="5. ocsumm2.gateway.xpkgateway.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10797" author="msavch" failOnError="false">
+	     <comment> Install constraint 6. ocsumm2.inplan.xpkinplan</comment>
+	     <sqlFile path="6. ocsumm2.inplan.xpkinplan.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10798" author="msavch" failOnError="false">
+	     <comment> Install constraint 7. ocsumm2.permissible_use.xpkpermissible_use</comment>
+	     <sqlFile path="7. ocsumm2.permissible_use.xpkpermissible_use.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10799" author="msavch" failOnError="false">
+	     <comment> Install constraint 8. ocsumm2.royalty.xpkroyalty</comment>
+	     <sqlFile path="8. ocsumm2.royalty.xpkroyalty.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10800" author="msavch" failOnError="false">
+	     <comment> Install constraint 9. ocsumm2.royalty_usage.royalty_usage_pk</comment>
+	     <sqlFile path="9. ocsumm2.royalty_usage.royalty_usage_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10801" author="msavch" failOnError="false">
+	     <comment> Install constraint 10. ocsumm2.session_detail.xpksession_detail</comment>
+	     <sqlFile path="10. ocsumm2.session_detail.xpksession_detail.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10802" author="msavch" failOnError="false">
+	     <comment> Install constraint 11. ocsumm2.usage.xpkusage</comment>
+	     <sqlFile path="11. ocsumm2.usage.xpkusage.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#10803" author="msavch" failOnError="false">
+	     <comment> Install constraint 12. ocsumm2.vip_monitoring.xpkvip_monitoring</comment>
+	     <sqlFile path="12. ocsumm2.vip_monitoring.xpkvip_monitoring.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

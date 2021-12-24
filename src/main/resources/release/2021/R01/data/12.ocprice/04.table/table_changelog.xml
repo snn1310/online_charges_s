@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#8743" author="msavch" failOnError="false">
+	     <comment> Install table 0. ocprice.audit_log</comment>
+	     <sqlFile path="0. ocprice.audit_log.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8744" author="msavch" failOnError="false">
+	     <comment> Install table 1. ocprice.billable_overrides</comment>
+	     <sqlFile path="1. ocprice.billable_overrides.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8745" author="msavch" failOnError="false">
+	     <comment> Install table 2. ocprice.billing_group</comment>
+	     <sqlFile path="2. ocprice.billing_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8746" author="msavch" failOnError="false">
+	     <comment> Install table 3. ocprice.chained_rows</comment>
+	     <sqlFile path="3. ocprice.chained_rows.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8747" author="msavch" failOnError="false">
+	     <comment> Install table 4. ocprice.config_item</comment>
+	     <sqlFile path="4. ocprice.config_item.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8748" author="msavch" failOnError="false">
+	     <comment> Install table 5. ocprice.config_value</comment>
+	     <sqlFile path="5. ocprice.config_value.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8749" author="msavch" failOnError="false">
+	     <comment> Install table 6. ocprice.contact</comment>
+	     <sqlFile path="6. ocprice.contact.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8750" author="msavch" failOnError="false">
+	     <comment> Install table 7. ocprice.content</comment>
+	     <sqlFile path="7. ocprice.content.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8751" author="msavch" failOnError="false">
+	     <comment> Install table 8. ocprice.content_detail</comment>
+	     <sqlFile path="8. ocprice.content_detail.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8752" author="msavch" failOnError="false">
+	     <comment> Install table 9. ocprice.content_exemplar</comment>
+	     <sqlFile path="9. ocprice.content_exemplar.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8753" author="msavch" failOnError="false">
+	     <comment> Install table 10. ocprice.currency_code</comment>
+	     <sqlFile path="10. ocprice.currency_code.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8754" author="msavch" failOnError="false">
+	     <comment> Install table 11. ocprice.database_group</comment>
+	     <sqlFile path="11. ocprice.database_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8755" author="msavch" failOnError="false">
+	     <comment> Install table 12. ocprice.database_name</comment>
+	     <sqlFile path="12. ocprice.database_name.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8756" author="msavch" failOnError="false">
+	     <comment> Install table 13. ocprice.dba_test_replication</comment>
+	     <sqlFile path="13. ocprice.dba_test_replication.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8757" author="msavch" failOnError="false">
+	     <comment> Install table 14. ocprice.document_percent</comment>
+	     <sqlFile path="14. ocprice.document_percent.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8758" author="msavch" failOnError="false">
+	     <comment> Install table 15. ocprice.document_price</comment>
+	     <sqlFile path="15. ocprice.document_price.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8759" author="msavch" failOnError="false">
+	     <comment> Install table 16. ocprice.ebook_config</comment>
+	     <sqlFile path="16. ocprice.ebook_config.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8760" author="msavch" failOnError="false">
+	     <comment> Install table 17. ocprice.group_material_num</comment>
+	     <sqlFile path="17. ocprice.group_material_num.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8761" author="msavch" failOnError="false">
+	     <comment> Install table 18. ocprice.material_number</comment>
+	     <sqlFile path="18. ocprice.material_number.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8762" author="msavch" failOnError="false">
+	     <comment> Install table 19. ocprice.material_price_grp</comment>
+	     <sqlFile path="19. ocprice.material_price_grp.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8763" author="msavch" failOnError="false">
+	     <comment> Install table 20. ocprice.material_rate</comment>
+	     <sqlFile path="20. ocprice.material_rate.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8764" author="msavch" failOnError="false">
+	     <comment> Install table 21. ocprice.onl_service_price</comment>
+	     <sqlFile path="21. ocprice.onl_service_price.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8765" author="msavch" failOnError="false">
+	     <comment> Install table 22. ocprice.onl_service_type</comment>
+	     <sqlFile path="22. ocprice.onl_service_type.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8766" author="msavch" failOnError="false">
+	     <comment> Install table 23. ocprice.override</comment>
+	     <sqlFile path="23. ocprice.override.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8767" author="msavch" failOnError="false">
+	     <comment> Install table 24. ocprice.override_billing_option</comment>
+	     <sqlFile path="24. ocprice.override_billing_option.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8768" author="msavch" failOnError="false">
+	     <comment> Install table 25. ocprice.password_expiration</comment>
+	     <sqlFile path="25. ocprice.password_expiration.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8769" author="msavch" failOnError="false">
+	     <comment> Install table 26. ocprice.plan_table</comment>
+	     <sqlFile path="26. ocprice.plan_table.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8770" author="msavch" failOnError="false">
+	     <comment> Install table 27. ocprice.price_id</comment>
+	     <sqlFile path="27. ocprice.price_id.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8771" author="msavch" failOnError="false">
+	     <comment> Install table 28. ocprice.privacy_category_map</comment>
+	     <sqlFile path="28. ocprice.privacy_category_map.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8772" author="msavch" failOnError="false">
+	     <comment> Install table 29. ocprice.promo_number</comment>
+	     <sqlFile path="29. ocprice.promo_number.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8773" author="msavch" failOnError="false">
+	     <comment> Install table 30. ocprice.promotion</comment>
+	     <sqlFile path="30. ocprice.promotion.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8774" author="msavch" failOnError="false">
+	     <comment> Install table 31. ocprice.promotion_content</comment>
+	     <sqlFile path="31. ocprice.promotion_content.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8775" author="msavch" failOnError="false">
+	     <comment> Install table 32. ocprice.promotion_number</comment>
+	     <sqlFile path="32. ocprice.promotion_number.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8776" author="msavch" failOnError="false">
+	     <comment> Install table 33. ocprice.promotion_security_group</comment>
+	     <sqlFile path="33. ocprice.promotion_security_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8777" author="msavch" failOnError="false">
+	     <comment> Install table 34. ocprice.quantity_discount</comment>
+	     <sqlFile path="34. ocprice.quantity_discount.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8778" author="msavch" failOnError="false">
+	     <comment> Install table 35. ocprice.range</comment>
+	     <sqlFile path="35. ocprice.range.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8779" author="msavch" failOnError="false">
+	     <comment> Install table 36. ocprice.rule</comment>
+	     <sqlFile path="36. ocprice.rule.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8780" author="msavch" failOnError="false">
+	     <comment> Install table 37. ocprice.rule_attribute</comment>
+	     <sqlFile path="37. ocprice.rule_attribute.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8781" author="msavch" failOnError="false">
+	     <comment> Install table 38. ocprice.rule_instance</comment>
+	     <sqlFile path="38. ocprice.rule_instance.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8782" author="msavch" failOnError="false">
+	     <comment> Install table 39. ocprice.rule_instance_value</comment>
+	     <sqlFile path="39. ocprice.rule_instance_value.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8783" author="msavch" failOnError="false">
+	     <comment> Install table 40. ocprice.storage_key</comment>
+	     <sqlFile path="40. ocprice.storage_key.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8784" author="msavch" failOnError="false">
+	     <comment> Install table 41. ocprice.sub_material_num</comment>
+	     <sqlFile path="41. ocprice.sub_material_num.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8785" author="msavch" failOnError="false">
+	     <comment> Install table 42. ocprice.sub_seat_limit</comment>
+	     <sqlFile path="42. ocprice.sub_seat_limit.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8786" author="msavch" failOnError="false">
+	     <comment> Install table 43. ocprice.sub_usage_type</comment>
+	     <sqlFile path="43. ocprice.sub_usage_type.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8787" author="msavch" failOnError="false">
+	     <comment> Install table 44. ocprice.subscriber_defined</comment>
+	     <sqlFile path="44. ocprice.subscriber_defined.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8788" author="msavch" failOnError="false">
+	     <comment> Install table 45. ocprice.subscription</comment>
+	     <sqlFile path="45. ocprice.subscription.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8789" author="msavch" failOnError="false">
+	     <comment> Install table 46. ocprice.subscription_material</comment>
+	     <sqlFile path="46. ocprice.subscription_material.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8790" author="msavch" failOnError="false">
+	     <comment> Install table 47. ocprice.tax_rate</comment>
+	     <sqlFile path="47. ocprice.tax_rate.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8791" author="msavch" failOnError="false">
+	     <comment> Install table 48. ocprice.test</comment>
+	     <sqlFile path="48. ocprice.test.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8792" author="msavch" failOnError="false">
+	     <comment> Install table 49. ocprice.test1</comment>
+	     <sqlFile path="49. ocprice.test1.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8793" author="msavch" failOnError="false">
+	     <comment> Install table 50. ocprice.tiered_percent</comment>
+	     <sqlFile path="50. ocprice.tiered_percent.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8794" author="msavch" failOnError="false">
+	     <comment> Install table 51. ocprice.trial</comment>
+	     <sqlFile path="51. ocprice.trial.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8795" author="msavch" failOnError="false">
+	     <comment> Install table 52. ocprice.usage_limit</comment>
+	     <sqlFile path="52. ocprice.usage_limit.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8796" author="msavch" failOnError="false">
+	     <comment> Install table 53. ocprice.usage_price</comment>
+	     <sqlFile path="53. ocprice.usage_price.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8797" author="msavch" failOnError="false">
+	     <comment> Install table 54. ocprice.usage_type</comment>
+	     <sqlFile path="54. ocprice.usage_type.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8798" author="msavch" failOnError="false">
+	     <comment> Install table 55. ocprice.user_adjustment</comment>
+	     <sqlFile path="55. ocprice.user_adjustment.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8799" author="msavch" failOnError="false">
+	     <comment> Install table 56. ocprice.user_adjustment_5bcaeffb</comment>
+	     <sqlFile path="56. ocprice.user_adjustment_5bcaeffb.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8800" author="msavch" failOnError="false">
+	     <comment> Install table 57. ocprice.user_id</comment>
+	     <sqlFile path="57. ocprice.user_id.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8801" author="msavch" failOnError="false">
+	     <comment> Install table 58. ocprice.user_limit</comment>
+	     <sqlFile path="58. ocprice.user_limit.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8802" author="msavch" failOnError="false">
+	     <comment> Install table 59. ocprice.valid_rule_prc</comment>
+	     <sqlFile path="59. ocprice.valid_rule_prc.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8803" author="msavch" failOnError="false">
+	     <comment> Install table 60. ocprice.valid_value_prc</comment>
+	     <sqlFile path="60. ocprice.valid_value_prc.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8804" author="msavch" failOnError="false">
+	     <comment> Install table 61. ocprice.vendor_code</comment>
+	     <sqlFile path="61. ocprice.vendor_code.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8805" author="msavch" failOnError="false">
+	     <comment> Install table 62. ocprice.waiver</comment>
+	     <sqlFile path="62. ocprice.waiver.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

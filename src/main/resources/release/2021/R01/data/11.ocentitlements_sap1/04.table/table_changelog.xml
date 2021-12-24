@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#8715" author="msavch" failOnError="false">
+	     <comment> Install table 0. ocentitlements_sap1.audit_log</comment>
+	     <sqlFile path="0. ocentitlements_sap1.audit_log.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8716" author="msavch" failOnError="false">
+	     <comment> Install table 1. ocentitlements_sap1.cross_domain_map</comment>
+	     <sqlFile path="1. ocentitlements_sap1.cross_domain_map.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8717" author="msavch" failOnError="false">
+	     <comment> Install table 2. ocentitlements_sap1.entitlement_profile</comment>
+	     <sqlFile path="2. ocentitlements_sap1.entitlement_profile.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8718" author="msavch" failOnError="false">
+	     <comment> Install table 3. ocentitlements_sap1.profile_instance_data</comment>
+	     <sqlFile path="3. ocentitlements_sap1.profile_instance_data.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8719" author="msavch" failOnError="false">
+	     <comment> Install table 4. ocentitlements_sap1.profile_preference</comment>
+	     <sqlFile path="4. ocentitlements_sap1.profile_preference.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8720" author="msavch" failOnError="false">
+	     <comment> Install table 5. ocentitlements_sap1.profile_security_group</comment>
+	     <sqlFile path="5. ocentitlements_sap1.profile_security_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8721" author="msavch" failOnError="false">
+	     <comment> Install table 6. ocentitlements_sap1.profile_subscription</comment>
+	     <sqlFile path="6. ocentitlements_sap1.profile_subscription.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8722" author="msavch" failOnError="false">
+	     <comment> Install table 7. ocentitlements_sap1.profile_user_limit</comment>
+	     <sqlFile path="7. ocentitlements_sap1.profile_user_limit.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8723" author="msavch" failOnError="false">
+	     <comment> Install table 8. ocentitlements_sap1.security_group</comment>
+	     <sqlFile path="8. ocentitlements_sap1.security_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>

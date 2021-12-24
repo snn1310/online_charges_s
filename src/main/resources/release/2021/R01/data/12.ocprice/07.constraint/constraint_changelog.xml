@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<databaseChangeLog 
+	                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.10.xsd
+	                   http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd" >
+
+
+	<changeSet id="DMA_MIG#8867" author="msavch" failOnError="false">
+	     <comment> Install constraint 0. ocprice.audit_log.xpkaudit_log</comment>
+	     <sqlFile path="0. ocprice.audit_log.xpkaudit_log.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8868" author="msavch" failOnError="false">
+	     <comment> Install constraint 1. ocprice.billable_overrides.xpkbillable_overrides</comment>
+	     <sqlFile path="1. ocprice.billable_overrides.xpkbillable_overrides.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8869" author="msavch" failOnError="false">
+	     <comment> Install constraint 2. ocprice.billing_group.xpkbilling_group</comment>
+	     <sqlFile path="2. ocprice.billing_group.xpkbilling_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8870" author="msavch" failOnError="false">
+	     <comment> Install constraint 3. ocprice.config_item.xpkconfig_item</comment>
+	     <sqlFile path="3. ocprice.config_item.xpkconfig_item.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8871" author="msavch" failOnError="false">
+	     <comment> Install constraint 4. ocprice.config_value.xpkconfig_value</comment>
+	     <sqlFile path="4. ocprice.config_value.xpkconfig_value.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8872" author="msavch" failOnError="false">
+	     <comment> Install constraint 5. ocprice.contact.xpkcontact</comment>
+	     <sqlFile path="5. ocprice.contact.xpkcontact.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8873" author="msavch" failOnError="false">
+	     <comment> Install constraint 6. ocprice.content.xpkcontent</comment>
+	     <sqlFile path="6. ocprice.content.xpkcontent.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8874" author="msavch" failOnError="false">
+	     <comment> Install constraint 7. ocprice.content_detail.xpkcontent_detail</comment>
+	     <sqlFile path="7. ocprice.content_detail.xpkcontent_detail.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8875" author="msavch" failOnError="false">
+	     <comment> Install constraint 8. ocprice.content_exemplar.xpkcontent_exempla</comment>
+	     <sqlFile path="8. ocprice.content_exemplar.xpkcontent_exempla.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8876" author="msavch" failOnError="false">
+	     <comment> Install constraint 9. ocprice.currency_code.xpkcurrency_code</comment>
+	     <sqlFile path="9. ocprice.currency_code.xpkcurrency_code.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8877" author="msavch" failOnError="false">
+	     <comment> Install constraint 10. ocprice.database_group.xpkdatabase_group</comment>
+	     <sqlFile path="10. ocprice.database_group.xpkdatabase_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8878" author="msavch" failOnError="false">
+	     <comment> Install constraint 11. ocprice.database_name.xpkdatabase_name</comment>
+	     <sqlFile path="11. ocprice.database_name.xpkdatabase_name.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8879" author="msavch" failOnError="false">
+	     <comment> Install constraint 12. ocprice.dba_test_replication.xpkdba_test_replication</comment>
+	     <sqlFile path="12. ocprice.dba_test_replication.xpkdba_test_replication.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8880" author="msavch" failOnError="false">
+	     <comment> Install constraint 13. ocprice.document_percent.xpkdocument_percen</comment>
+	     <sqlFile path="13. ocprice.document_percent.xpkdocument_percen.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8881" author="msavch" failOnError="false">
+	     <comment> Install constraint 14. ocprice.document_price.xpkdocument_price</comment>
+	     <sqlFile path="14. ocprice.document_price.xpkdocument_price.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8882" author="msavch" failOnError="false">
+	     <comment> Install constraint 15. ocprice.ebook_config.xpkebook_config</comment>
+	     <sqlFile path="15. ocprice.ebook_config.xpkebook_config.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8883" author="msavch" failOnError="false">
+	     <comment> Install constraint 16. ocprice.group_material_num.xpkgroup_material_</comment>
+	     <sqlFile path="16. ocprice.group_material_num.xpkgroup_material_.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8884" author="msavch" failOnError="false">
+	     <comment> Install constraint 17. ocprice.material_number.xpkmaterial_number</comment>
+	     <sqlFile path="17. ocprice.material_number.xpkmaterial_number.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8885" author="msavch" failOnError="false">
+	     <comment> Install constraint 18. ocprice.material_price_grp.xpkmaterial_price_</comment>
+	     <sqlFile path="18. ocprice.material_price_grp.xpkmaterial_price_.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8886" author="msavch" failOnError="false">
+	     <comment> Install constraint 19. ocprice.material_rate.xpkmaterial_rate</comment>
+	     <sqlFile path="19. ocprice.material_rate.xpkmaterial_rate.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8887" author="msavch" failOnError="false">
+	     <comment> Install constraint 20. ocprice.onl_service_price.xpkonl_service_price</comment>
+	     <sqlFile path="20. ocprice.onl_service_price.xpkonl_service_price.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8888" author="msavch" failOnError="false">
+	     <comment> Install constraint 21. ocprice.onl_service_type.xpkonl_service_typ</comment>
+	     <sqlFile path="21. ocprice.onl_service_type.xpkonl_service_typ.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8889" author="msavch" failOnError="false">
+	     <comment> Install constraint 22. ocprice.override.xpkoverride</comment>
+	     <sqlFile path="22. ocprice.override.xpkoverride.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8890" author="msavch" failOnError="false">
+	     <comment> Install constraint 23. ocprice.override_billing_option.xpkoverride_billing_option</comment>
+	     <sqlFile path="23. ocprice.override_billing_option.xpkoverride_billing_option.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8891" author="msavch" failOnError="false">
+	     <comment> Install constraint 24. ocprice.password_expiration.xpkpassword_expiration</comment>
+	     <sqlFile path="24. ocprice.password_expiration.xpkpassword_expiration.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8892" author="msavch" failOnError="false">
+	     <comment> Install constraint 25. ocprice.price_id.xpkprice_id</comment>
+	     <sqlFile path="25. ocprice.price_id.xpkprice_id.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8893" author="msavch" failOnError="false">
+	     <comment> Install constraint 26. ocprice.privacy_category_map.xpkprivacy_category_map</comment>
+	     <sqlFile path="26. ocprice.privacy_category_map.xpkprivacy_category_map.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8894" author="msavch" failOnError="false">
+	     <comment> Install constraint 27. ocprice.promo_number.xpkpromo_number</comment>
+	     <sqlFile path="27. ocprice.promo_number.xpkpromo_number.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8895" author="msavch" failOnError="false">
+	     <comment> Install constraint 28. ocprice.promotion.xpkpromotion</comment>
+	     <sqlFile path="28. ocprice.promotion.xpkpromotion.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8896" author="msavch" failOnError="false">
+	     <comment> Install constraint 29. ocprice.promotion_content.xpkpromotion_content</comment>
+	     <sqlFile path="29. ocprice.promotion_content.xpkpromotion_content.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8897" author="msavch" failOnError="false">
+	     <comment> Install constraint 30. ocprice.promotion_number.xpkpromotion_number</comment>
+	     <sqlFile path="30. ocprice.promotion_number.xpkpromotion_number.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8898" author="msavch" failOnError="false">
+	     <comment> Install constraint 31. ocprice.promotion_security_group.xpkpromotion_security_group</comment>
+	     <sqlFile path="31. ocprice.promotion_security_group.xpkpromotion_security_group.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8899" author="msavch" failOnError="false">
+	     <comment> Install constraint 32. ocprice.quantity_discount.xpkquantity_discou</comment>
+	     <sqlFile path="32. ocprice.quantity_discount.xpkquantity_discou.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8900" author="msavch" failOnError="false">
+	     <comment> Install constraint 33. ocprice.range.xpkrange</comment>
+	     <sqlFile path="33. ocprice.range.xpkrange.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8901" author="msavch" failOnError="false">
+	     <comment> Install constraint 34. ocprice.rule.xpkrule</comment>
+	     <sqlFile path="34. ocprice.rule.xpkrule.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8902" author="msavch" failOnError="false">
+	     <comment> Install constraint 35. ocprice.rule_attribute.xpkrule_attribute</comment>
+	     <sqlFile path="35. ocprice.rule_attribute.xpkrule_attribute.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8903" author="msavch" failOnError="false">
+	     <comment> Install constraint 36. ocprice.rule_instance.xpkrule_instance</comment>
+	     <sqlFile path="36. ocprice.rule_instance.xpkrule_instance.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8904" author="msavch" failOnError="false">
+	     <comment> Install constraint 37. ocprice.rule_instance_value.xpkrule_instance_value</comment>
+	     <sqlFile path="37. ocprice.rule_instance_value.xpkrule_instance_value.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8905" author="msavch" failOnError="false">
+	     <comment> Install constraint 38. ocprice.storage_key.xpkstorage_key</comment>
+	     <sqlFile path="38. ocprice.storage_key.xpkstorage_key.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8906" author="msavch" failOnError="false">
+	     <comment> Install constraint 39. ocprice.sub_material_num.xpksub_material_nu</comment>
+	     <sqlFile path="39. ocprice.sub_material_num.xpksub_material_nu.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8907" author="msavch" failOnError="false">
+	     <comment> Install constraint 40. ocprice.sub_seat_limit.sub_seat_limit_pk</comment>
+	     <sqlFile path="40. ocprice.sub_seat_limit.sub_seat_limit_pk.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8908" author="msavch" failOnError="false">
+	     <comment> Install constraint 41. ocprice.sub_usage_type.xpksub_usage_type</comment>
+	     <sqlFile path="41. ocprice.sub_usage_type.xpksub_usage_type.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8909" author="msavch" failOnError="false">
+	     <comment> Install constraint 42. ocprice.subscriber_defined.xpksubscriber_defi</comment>
+	     <sqlFile path="42. ocprice.subscriber_defined.xpksubscriber_defi.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8910" author="msavch" failOnError="false">
+	     <comment> Install constraint 43. ocprice.subscription.xpksubscription</comment>
+	     <sqlFile path="43. ocprice.subscription.xpksubscription.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8911" author="msavch" failOnError="false">
+	     <comment> Install constraint 44. ocprice.subscription_material.xpksubscription_material</comment>
+	     <sqlFile path="44. ocprice.subscription_material.xpksubscription_material.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8912" author="msavch" failOnError="false">
+	     <comment> Install constraint 45. ocprice.tax_rate.xpktax_rate</comment>
+	     <sqlFile path="45. ocprice.tax_rate.xpktax_rate.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8913" author="msavch" failOnError="false">
+	     <comment> Install constraint 46. ocprice.test.sys_c0012627</comment>
+	     <sqlFile path="46. ocprice.test.sys_c0012627.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8914" author="msavch" failOnError="false">
+	     <comment> Install constraint 47. ocprice.test1.sys_c0012625</comment>
+	     <sqlFile path="47. ocprice.test1.sys_c0012625.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8915" author="msavch" failOnError="false">
+	     <comment> Install constraint 48. ocprice.tiered_percent.xpktiered_percent</comment>
+	     <sqlFile path="48. ocprice.tiered_percent.xpktiered_percent.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8916" author="msavch" failOnError="false">
+	     <comment> Install constraint 49. ocprice.trial.xpktrial</comment>
+	     <sqlFile path="49. ocprice.trial.xpktrial.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8917" author="msavch" failOnError="false">
+	     <comment> Install constraint 50. ocprice.usage_limit.xpkusage_limit</comment>
+	     <sqlFile path="50. ocprice.usage_limit.xpkusage_limit.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8918" author="msavch" failOnError="false">
+	     <comment> Install constraint 51. ocprice.usage_price.xpkusage_price</comment>
+	     <sqlFile path="51. ocprice.usage_price.xpkusage_price.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8919" author="msavch" failOnError="false">
+	     <comment> Install constraint 52. ocprice.usage_type.xpkusage_type</comment>
+	     <sqlFile path="52. ocprice.usage_type.xpkusage_type.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8920" author="msavch" failOnError="false">
+	     <comment> Install constraint 53. ocprice.user_adjustment.xpkuser_adjustment</comment>
+	     <sqlFile path="53. ocprice.user_adjustment.xpkuser_adjustment.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8921" author="msavch" failOnError="false">
+	     <comment> Install constraint 54. ocprice.user_id.xpkuser_id</comment>
+	     <sqlFile path="54. ocprice.user_id.xpkuser_id.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8922" author="msavch" failOnError="false">
+	     <comment> Install constraint 55. ocprice.user_limit.xpkuser_limit</comment>
+	     <sqlFile path="55. ocprice.user_limit.xpkuser_limit.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8923" author="msavch" failOnError="false">
+	     <comment> Install constraint 56. ocprice.valid_rule_prc.xpkvalid_rule_prc</comment>
+	     <sqlFile path="56. ocprice.valid_rule_prc.xpkvalid_rule_prc.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8924" author="msavch" failOnError="false">
+	     <comment> Install constraint 57. ocprice.valid_value_prc.xpkvalid_value_prc</comment>
+	     <sqlFile path="57. ocprice.valid_value_prc.xpkvalid_value_prc.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8925" author="msavch" failOnError="false">
+	     <comment> Install constraint 58. ocprice.vendor_code.xpkvendor_code</comment>
+	     <sqlFile path="58. ocprice.vendor_code.xpkvendor_code.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+	<changeSet id="DMA_MIG#8926" author="msavch" failOnError="false">
+	     <comment> Install constraint 59. ocprice.waiver.xpkwaiver</comment>
+	     <sqlFile path="59. ocprice.waiver.xpkwaiver.sql" dbms="postgresql" encoding="UTF-8" relativeToChangelogFile="true"  splitStatements="false" endDelimiter=";" />
+	</changeSet>
+
+
+</databaseChangeLog>
