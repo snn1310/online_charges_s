@@ -2,7 +2,7 @@ pipeline{
 	
 	agent any
         parameters {
-	 string(name:'DbName',
+	 string(name:'DbNamet',
 	        defaultValue:'ocs',
 		description:'Input database name'
 	       )
