@@ -1,7 +1,12 @@
 pipeline{
 	
 	agent any
-
+        parameters {
+	 string(name:'DbName',
+	        defaultValue:'ocs',
+		description:'Input database name'
+	       )
+	}
 	stages {
 
 		stage("create schema aws_oracle_ext") {
