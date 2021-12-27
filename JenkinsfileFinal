@@ -1,7 +1,13 @@
 pipeline{
 	
 	agent any
-
+        parameters{
+	   string(
+	     name:'UserPassword',
+	     defaultValue:'1234',
+	     description:'Enter password'
+	     )
+	}
 	stages {
 
 		stage("all_indexes") {
