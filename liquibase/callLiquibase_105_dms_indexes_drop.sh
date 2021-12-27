@@ -1,1 +1,1 @@
-bash $JENKINS_HOME/liquibase/liquibase  --loglevel=debug --changeLogFile=src/main/resources/release/2021/R01/data/19.add_scripts/dms_index_drop_changelog.xml --username=${MasterUserName} --password=${MasterUserPassword} --url=jdbc:postgresql://${TargetDbEndPoint}:5432/${DbName} update
+bash $JENKINS_HOME/liquibase/liquibase  --loglevel=debug --changeLogFile=src/main/resources/release/2021/R01/data/19.add_scripts/dms_index_drop_changelog.xml --username=${MasterUserName} --password=${MasterUserPassword} --url=jdbc:postgresql://${TargetDbEndpoint}:5432/${DbName} update
